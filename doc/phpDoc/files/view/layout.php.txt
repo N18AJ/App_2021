@@ -1,0 +1,27 @@
+
+Deprecated: array_key_exists(): Using array_key_exists() on objects is deprecated. Use isset() or property_exists() instead in D:\phpDoc\phpDocumentor-2.8.5\vendor\twig\twig\lib\Twig\Template.php on line 527
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>LoginLogoffMulticapaPOO</title>
+        <meta name="viewport"   content="width=device-width, initial-scale=1.0">
+        <meta name="author"     content="Nerea Álvarez Justel">
+        <meta name="robots"     content="index, follow">      
+        <link rel="stylesheet"  href="webroot/css/estilos.css"       type="text/css" >
+        <link rel="icon"        href="webroot/media/favicon.png"    type="image/x-png">
+    </head>
+    <body>
+        <header id="header">
+            <a href="https://www.instagram.com/designs_naj/" target="_blank"><img src="webroot/media/images/logo2.png" alt="Logo" width="200" class="icono_logo"/></a>
+        </header>
+
+        <?php require_once $vistaEnCurso ?>
+
+        <footer class="fixed">
+            <a href="http://daw212.ieslossauces.es/" target="_blank"> <img src="webroot/media/images/one.png" alt="oneandone icon" width="40"></a>
+            <address>  <a href="../../../../index.html">&copy; 2020-2021 Nerea Álvarez Justel</a> <a href="" target="_blank"> <img src="webroot/media/images/phpDoc.png" alt="phpDoc" width="25"></a></address>
+            <a href="https://github.com/N18AJ/AplicacionLoginLogoffMulticapa" target="_blank"><img class="github" width="40" src="webroot/media/github.png" ></a>
+        </footer>
+    </body>
+</html>
