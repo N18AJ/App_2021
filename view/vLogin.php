@@ -1,7 +1,5 @@
-
-<form class="botones" name="formularioIdioma" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">                      
-    <button <?php echo ($_COOKIE['idioma'] == "es") ? "style='font-weight: bold;'" : null; ?> class="idioma" type="submit" name="idiomaElegido" value="es" >ESPAÑOL</button>
-    <button <?php echo ($_COOKIE['idioma'] == "en") ? "style='font-weight: bold;'" : null; ?> class="idioma" type="submit" name="idiomaElegido" value="en" >ENGLISH</button>
+<form class="botones" name="login" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+    <button class="button" type="submit" name="Home" id="homeB" ><?php echo $aLang[$_COOKIE['idioma']]['homeB']; ?></button> 
 </form>
 
 <main>

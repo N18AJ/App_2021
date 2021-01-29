@@ -8,6 +8,8 @@
         <meta name="robots"     content="index, follow">      
         <link rel="stylesheet"  href="webroot/css/estilos.css"       type="text/css" >
         <link rel="icon"        href="webroot/media/favicon.png"    type="image/x-png">
+        
+        <script src="webroot/javascript/script.js"   type="text/javascript"></script>
     </head>
     <body>
         <header id="header">
@@ -25,11 +27,13 @@
             </div>
     
             <div id="footerDec">
-                <a href="https://github.com/N18AJ/AplicacionLoginLogoffMulticapa" target="_blank"><img class="github" width="25" src="webroot/media/images/github.png" ></a>
-                <a href="http://daw212.ieslossauces.es/" target="_blank"> <img src="webroot/media/images/one.png" alt="oneandone icon" width="30"></a>
+                <a href="doc/tema2.pdf" target="_blank"><img class="icon" width="20" src="webroot/media/images/tema2.png" ></a>
+                <a href="webroot/rss/rss.xml" target="_blank"><img class="icon" width="25" src="webroot/media/images/rss.png" ></a>
+                <a href="https://github.com/N18AJ/AplicacionLoginLogoffMulticapa" target="_blank"><img class="icon" width="25" src="webroot/media/images/github.png" ></a>
+                <a href="http://daw212.ieslossauces.es/" target="_blank"> <img class="icon" src="webroot/media/images/one.png" alt="oneandone icon" width="30"></a>
                 <a href="doc/cv.pdf" target="_blank"> <img src="webroot/media/images/cv.png" alt="Curriculum Vitae" width="20"></a>
-                <a href="doc/phpDoc/index.html" target="_blank"> <img src="webroot/media/images/phpDoc.png" alt="phpDoc" width="25"></a>
-                <a href="https://www.zara.com" target="_blank"><img class="github" width="50" src="webroot/media/images/zara.png" ></a>
+                <a href="doc/phpDoc/index.html" target="_blank"> <img class="icon" src="webroot/media/images/phpDoc.png" alt="phpDoc" width="25"></a>
+                <a href="https://www.zara.com" target="_blank"><img class="icon" width="50" src="webroot/media/images/zara.png" ></a>
             </div>
         </footer>
     </body>

@@ -23,6 +23,7 @@ $aLang = [
         'logoff' => 'CERRAR SESIÓN',
         'delete'=> 'BORRAR CUENTA',
         'restNom'=> 'REST',
+        'homeB'=> 'HOME',
         
         //Titulos
         'startT'=> 'INICIA SESIÓN',
@@ -31,6 +32,9 @@ $aLang = [
         'editProfileT' => 'EDITAR PERFIL',
         'deleteT'=> 'BORRAR CUENTA',
         'restT'=> 'REST',
+        'homeT'=> 'PÁGINA INICIO',
+        'imagenT'=> 'IMAGENES',
+        'docT'=> 'ENLACES A DOC',
         
         //Muestra INICIO
         //'welcome' => 'Bienvenid@ ' . (isset($usuarioActual) ? $usuarioActual->getDescUsuario() : null),
@@ -68,6 +72,7 @@ $aLang = [
         'logoff' => 'LOG OUT',
         'delete'=> 'DELETE ACCOUNT',
         'restNom'=> 'REST',
+        'homeB'=> 'HOME',
         
         //Titulos
         'startT'=> 'START',
@@ -75,6 +80,9 @@ $aLang = [
         'editProfileT' => 'EDIT PROFILE',
         'deleteT'=> 'DELETE ACCOUNT',
         'restT'=> 'REST',
+        'homeT'=> 'HOMEPAGE',
+        'imagenT'=> 'IMAGENES',
+        'docT'=> 'LINK  DOC',
         
         //Muestra INICIO
         //'welcome' => 'Welcome ' . (isset($usuarioActual) ? $usuarioActual->getDescUsuario() : null),
