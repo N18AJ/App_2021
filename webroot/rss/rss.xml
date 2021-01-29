@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>La Opinión</title>
+        <link>https://www.laopiniondezamora.es/benavente/</link>
+        <description>La opinion de Zamora, Benavente</description>
+        <category>Periódico </category>
+        <language> es </language>
+        <copyright> &#169; </copyright>
+        <skipHours>
+                <hour> (0 and 23)</hour>
+        </skipHours>
+        <skipDays> 
+                <day>Sunday</day>
+        </skipDays>
+
+
+        <item>
+            <title>El Ayuntamiento de Benavente pide un cribado masivo al acercarse la incidencia a mil casos</title>
+            <link>https://www.laopiniondezamora.es/benavente/2021/01/27/ayuntamiento-pide-cribado-masivo-acercarse-31427958.html</link>
+            <description>La medida sería “fundamental” para reducir la presión en medicina de Atención Primaria “especialmente ante la ausencia de pediatra”</description>
+            <pubDate>Wed, 27 Jan 2019 09:34:00 EST</pubDate>
+            <author>E.ponte@hotmail.com </author>
+            <guid> </guid>
+        </item>
+
+    </channel>
+</rss>
