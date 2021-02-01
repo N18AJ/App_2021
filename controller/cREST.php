@@ -39,7 +39,7 @@ if (isset($_REQUEST['Aceptar'])) { //si se ha enviado una fecha
     $ValoresActor = null;
 }
 if (is_null($ValoresActor)) {
-    $nombrePersonaje = "Sin petición";
+    $nombrePersonaje = null;
     $cumpleaños = null;
     $imagen = null;
     $estado = null;
