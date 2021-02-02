@@ -17,6 +17,7 @@ $aLang = [
         'typeUser' => 'PERFIL USUARIO',
         
         //Botones ENTRADA
+        'start' => 'INICIO',
         'login' => 'INICIAR SESIÓN',
         'signup' => 'CREAR CUENTA',
         'edit' => 'EDITAR PERFIL',
@@ -37,8 +38,8 @@ $aLang = [
         'docT'=> 'ENLACES A DOC',
         
         //Muestra INICIO
-        //'welcome' => 'Bienvenid@ ' . (isset($usuarioActual) ? $usuarioActual->getDescUsuario() : null),
-        'welcome' => 'Bienvenid@ ',
+        'welcome' => 'Bienvenid@ ' . (isset($usuarioActual) ? $usuarioActual->getDescUsuario() : null),
+        //'welcome' => 'Bienvenid@ ',
         'person' => (isset($usuarioActual) ? $usuarioActual->getDescUsuario() : null),
         'numConnections' => 'Se ha conectado ' . (isset($usuarioActual) ? $usuarioActual->getNumConexiones() : null) . ' veces',
         'numConnectionsWelcome' => 'Esta es la primera vez que se conecta',
@@ -66,6 +67,7 @@ $aLang = [
         'typeUser' => 'TYPE OF USER',
         
         //Botones ENTRADA
+        'start' => 'START',
         'login' => 'LOGIN',
         'signup' => 'SIGN UP',
         'edit' => 'EDIT',
@@ -85,8 +87,8 @@ $aLang = [
         'docT'=> 'LINK  DOC',
         
         //Muestra INICIO
-        //'welcome' => 'Welcome ' . (isset($usuarioActual) ? $usuarioActual->getDescUsuario() : null),
-        'welcome' => 'Welcome ',
+        'welcome' => 'Welcome ' . (isset($usuarioActual) ? $usuarioActual->getDescUsuario() : null),
+        //'welcome' => 'Welcome ',
         'person' => (isset($usuarioActual) ? $usuarioActual->getDescUsuario() : null),
         'numConnections' => 'You have connected ' . (isset($usuarioActual) ? $usuarioActual->getNumConexiones() : null) . ' times',
         'numConnectionsWelcome' => 'This is the first time you connect',
