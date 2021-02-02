@@ -8,6 +8,7 @@ require_once "model/REST.php";
 
 //Referencia para la vista
 $controladores = [
+    "home" => "controller/cPaginaPrincipal.php",
     "login" => "controller/cLogin.php",
     "inicio" => "controller/cInicio.php",
     "registro" => "controller/cRegistro.php",
@@ -18,6 +19,7 @@ $controladores = [
 
 $vistas = [
     "layout" => "view/layout.php",
+    "home" => "view/vPaginaPrincipal.php",
     "login" => "view/vLogin.php",
     "inicio" => "view/vInicio.php",
     "registro" => "view/vRegistro.php",

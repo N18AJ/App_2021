@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
     <channel>
-        <title>La Opinión</title>
-        <link>https://www.laopiniondezamora.es/benavente/</link>
-        <description>La opinion de Zamora, Benavente</description>
-        <category>Periódico </category>
+        <title>NAJ</title>
+        <link>http://daw212.ieslossauces.es/</link>
+        <description>DAW2 20/21</description>
+        <category>Página Personal </category>
         <language> es </language>
         <copyright> &#169; </copyright>
         <skipHours>
@@ -16,11 +16,11 @@
 
 
         <item>
-            <title>El Ayuntamiento de Benavente pide un cribado masivo al acercarse la incidencia a mil casos</title>
-            <link>https://www.laopiniondezamora.es/benavente/2021/01/27/ayuntamiento-pide-cribado-masivo-acercarse-31427958.html</link>
-            <description>La medida sería “fundamental” para reducir la presión en medicina de Atención Primaria “especialmente ante la ausencia de pediatra”</description>
-            <pubDate>Wed, 27 Jan 2019 09:34:00 EST</pubDate>
-            <author>E.ponte@hotmail.com </author>
+            <title>App 20/21</title>
+            <link>http://daw212.ieslossauces.es/proyectoDWES/proyectoTema6/App2021/index.php</link>
+            <description>Subida de archivos REST y actualización de aspecto</description>
+            <pubDate>Fri, 28 Jan 2019 09:30:00 EST</pubDate>
+            <author>nerea.alvjus@educa.jcyl.es </author>
             <guid> </guid>
         </item>
 
