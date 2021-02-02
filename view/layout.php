@@ -29,7 +29,7 @@
             <div id="footerDec">
                 <a href="doc/tema2.pdf" target="_blank"><img class="icon" width="20" src="webroot/media/images/tema2.png" ></a>
                 <a href="webroot/rss/rss.xml" target="_blank"><img class="icon" width="25" src="webroot/media/images/rss.png" ></a>
-                <a href="https://github.com/N18AJ/AplicacionLoginLogoffMulticapa" target="_blank"><img class="icon" width="25" src="webroot/media/images/github.png" ></a>
+                <a href="https://github.com/N18AJ/App_2021" target="_blank"><img class="icon" width="25" src="webroot/media/images/github.png" ></a>
                 <a href="http://daw212.ieslossauces.es/" target="_blank"> <img class="icon" src="webroot/media/images/one.png" alt="oneandone icon" width="30"></a>
                 <a href="doc/cv.pdf" target="_blank"> <img src="webroot/media/images/cv.png" alt="Curriculum Vitae" width="20"></a>
                 <a href="doc/phpDoc/index.html" target="_blank"> <img class="icon" src="webroot/media/images/phpDoc.png" alt="phpDoc" width="25"></a>
