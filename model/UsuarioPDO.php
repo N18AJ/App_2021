@@ -47,6 +47,8 @@ class UsuarioPDO {
         
         return $oUsuario;
     }
+    
+  
 
     /**
      * Método borrarUsuario()
@@ -118,6 +120,38 @@ class UsuarioPDO {
         return $oUsuario;
     }
 
+    
+      /**
+     * Metodo cambiarPassword()
+     * 
+     * Metodo que cambia el password del usuario pasado como parametro
+     *
+     * @param  string $codUsuario codigo de usuario del usuario al que queremos cambiar el password
+     * @param  string $passwordNueva nueva password que se quiere poner al usuario
+     * @return null|\Usuario devuelve un objeto de tipo Usuario con los datos guardados en la base de datos y null si no se ha podido modificar el password
+     */
+    public static function cambiarPassword($codUsuario, $passwordNueva){
+        $oUsuario = null;
+
+        $consulta = "Update T01_Usuario set T01_Password=? where T01_CodUsuario=?";
+        $passwordEncriptado = hash("sha256", $codUsuario.$passwordNueva); // encripta el password pasado como parametro
+        $resultadoConsulta = DBPDO::ejecutaConsulta($consulta, [$passwordEncriptado,$codUsuario]);
+
+        if($resultadoConsulta){
+            $consultaDatosUsuario = "Select * from T01_Usuario where T01_CodUsuario=?";
+            $resultadoDatosUsuario = DBPDO::ejecutaConsulta($consultaDatosUsuario, [$codUsuario]); // guardo en la variabnle resultado el resultado que me devuelve la funcion que ejecuta la consulta con los paramtros pasados por parmetro
+            
+            if($resultadoDatosUsuario->rowCount()>0){ // si la consulta me devuelve algun resultado
+                $oUsuarioConsulta = $resultadoDatosUsuario->fetchObject(); // guardo en la variable el resultado de la consulta en forma de objeto
+                // instanciacion de un objeto Usuario con los datos del usuario
+                $oUsuario = new Usuario($oUsuarioConsulta->T01_CodUsuario, $oUsuarioConsulta->T01_Password, $oUsuarioConsulta->T01_DescUsuario, $oUsuarioConsulta->T01_NumConexiones, $oUsuarioConsulta->T01_FechaHoraUltimaConexion, $oUsuarioConsulta->T01_Perfil, $oUsuarioConsulta->T01_ImagenUsuario);
+            }
+        }
+
+        return $oUsuario;
+    }
+    
+    
     /**
      * Método validarCodNoExiste()
      * 

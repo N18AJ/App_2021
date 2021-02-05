@@ -1,3 +1,5 @@
+<header id="header" ></header>
+
 <main>
     <div style="width: 10%; float: left;">
         <form name="logout"  action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
@@ -67,6 +69,9 @@
             <div>
                 <button class="button" type="submit" name="Aceptar"><?php echo $aLang[$_COOKIE['idioma']]['editB']; ?></button> 
             </div>
+            <form name="logout"  action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+                <button class="button" type="submit" name='changePassw'><?php echo $aLang[$_COOKIE['idioma']]['changePasswB']; ?></button>
+            </form>
         </form>
     </div>    
 </main>

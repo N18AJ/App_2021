@@ -12,7 +12,7 @@
         <script src="webroot/javascript/script.js"   type="text/javascript"></script>
     </head>
     <body>
-        <header id="header">
+        <header id="header" class="logo">
             <a href="https://www.instagram.com/designs_naj/" target="_blank"><img src="webroot/media/images/logo2.png" alt="Logo" width="300" class="icono_logo"/></a>
         </header>
 

@@ -1,3 +1,5 @@
+<header id="header" ></header>
+
 <form class="botones" name="login" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
     <button class="button" type="submit" name="Home" id="homeB" ><?php echo $aLang[$_COOKIE['idioma']]['homeB']; ?></button> 
 </form>

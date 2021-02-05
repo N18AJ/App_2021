@@ -1,5 +1,7 @@
+<header id="header" ></header>
+
 <main>
-<h1><?php echo $aLang[$_COOKIE['idioma']]['datailsT']; ?></h1> <!-- peticion del titulo-->
+    <h1><?php echo $aLang[$_COOKIE['idioma']]['datailsT']; ?></h1> <!-- peticion del titulo-->
 
     <form name="singup" id="login" class="enter" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
         <table class="tablaCentro">

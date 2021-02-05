@@ -1,3 +1,5 @@
+<header id="header" ></header>
+
 <main>
     <div style="width: 20%; float: left;">
         <form name="logout"  action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
@@ -41,7 +43,7 @@
                 <div>
                     <p style="font-size:12pt"><span style="font-weight:bold; font-size:14pt">Nombre del actor: </span> <?php echo $nombrePersonaje?></p>
                     <p style="font-size:12pt"><span style="font-weight:bold; font-size:14pt">Fecha cumpleaños: </span> <?php echo $cumpleaños ?></p>
-                    <p style="font-size:12pt"><span style="font-weight:bold; font-size:14pt">Imagen: </span> <?php echo $imagen ?></p>
+                    <p style="font-size:12pt"><span style="font-weight:bold; font-size:14pt">Imagen: </span> <br> <img src="<?php echo $imagen ?>" width="100"></p>
                     <p style="font-size:12pt"><span style="font-weight:bold; font-size:14pt">Estado del personaje: </span> <?php echo $estado ?></p>
                     <p style="font-size:12pt"><span style="font-weight:bold; font-size:14pt">Apodo del pesonaje: </span> <?php echo $apodo ?></p>
                     <p style="font-size:12pt"><span style="font-weight:bold; font-size:14pt">Actor: </span> <?php echo $actor ?></p>
