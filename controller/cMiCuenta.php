@@ -30,6 +30,11 @@ if (isset($_REQUEST['restPag'])) { // si se ha pulsado el boton de REST
     header("Location: index.php"); // redirige al login
     exit;
 }
+if (isset($_REQUEST['changePassw'])) { // si se ha pulsado el boton de REST
+    $_SESSION['paginaEnCurso'] = $controladores['changePassw'];
+    header("Location: index.php"); // redirige al login
+    exit;
+}
 
 
 if (isset($_REQUEST['cerrarSesion'])) { // si se ha pulsado el boton de Cerrar Sesion
@@ -43,7 +48,7 @@ $CodUser = $usuarioActual->getCodUsuario();
 $DescUser = $usuarioActual->getDescUsuario();
 $Profile = $usuarioActual->getPerfil();
 $ConexNumber = $usuarioActual->getNumConexiones();
-$LastDateConex = date('d/m/Y H:i:s', $usuarioActual->getFechaHoraUltimaConexion());
+$LastDateConex = date('d/m/Y H:i:s');
 
 define("OBLIGATORIO", 1); // defino e inicializo la constante a 1 para los campos que son obligatorios
 $entradaOK = true;

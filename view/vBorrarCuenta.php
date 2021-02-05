@@ -1,3 +1,5 @@
+<header id="header" ></header>
+
 <main>
     <div style="width: 10%; float: left;">
         <form name="logout"  action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">

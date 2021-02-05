@@ -50,7 +50,11 @@ $CodUser = $usuarioActual->getCodUsuario();
 $DescUser = $usuarioActual->getDescUsuario();
 $Profile = $usuarioActual->getPerfil();
 $ConexNumber = $usuarioActual->getNumConexiones();
-$LastDateConex = date('d/m/Y H:i:s', $usuarioActual->getFechaHoraUltimaConexion());
+if($ConexNumber > 1){
+    $LastDateConex = date('d/m/Y H:i:s', $usuarioActual->getFechaHoraUltimaConexion());
+}else{
+    $LastDateConex = null;
+}
 
 $vistaEnCurso = $vistas['inicio']; // guardamos en la variable vistaEnCurso la vista que queremos implementar
 require_once $vistas['layout']; //se incluye la vista que contiene la $vistaEnCurso

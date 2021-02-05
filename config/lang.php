@@ -15,6 +15,9 @@ $aLang = [
         'NumConex' => 'NÚMERO DE CONEXIONES',
         'DateLastConex' => 'FECHA ÚLTIMA CONEXIÓN',
         'typeUser' => 'PERFIL USUARIO',
+        'passw' => 'CONTRASEÑA',
+        'passw2' => 'CONTRASEÑA NUEVA',
+        'passw3' => 'REPETIR CONTRASEÑA',
         
         //Botones ENTRADA
         'start' => 'INICIO',
@@ -40,11 +43,10 @@ $aLang = [
         //Muestra INICIO
         'welcome' => 'Bienvenid@ ' . (isset($usuarioActual) ? $usuarioActual->getDescUsuario() : null),
         //'welcome' => 'Bienvenid@ ',
-        'person' => (isset($usuarioActual) ? $usuarioActual->getDescUsuario() : null),
-        'numConnections' => 'Se ha conectado ' . (isset($usuarioActual) ? $usuarioActual->getNumConexiones() : null) . ' veces',
+        //'person' => (isset($usuarioActual) ? $usuarioActual->getDescUsuario() : null),
+        'numConnections' => 'Usted se ha conectado ' . (isset($usuarioActual) ? $usuarioActual->getNumConexiones() : null) . ' veces',
         'numConnectionsWelcome' => 'Esta es la primera vez que se conecta',
-        //'connectionNow' => ,
-        'lastConnection' => 'Última conexión: ' . (isset($usuarioActual) ? date('d/m/Y H:i:s', $usuarioActual->getFechaHoraUltimaConexion()) : null),
+        'lastConnection' => 'Esta es la hora de su última conexión: ' . (isset($usuarioActual) ? date('d/m/Y H:i:s', $usuarioActual->getFechaHoraUltimaConexion()) : null),
         
         //Botones movimiento
         'acceptB'=>'ACEPTAR',
@@ -52,7 +54,7 @@ $aLang = [
         'deleteB'=>'BORRAR',
         'cancelB' => 'CANCELAR',
         'returnB'=>'VOLVER',
-        'changeB'=>'CAMBIAR'
+        'changePasswB'=>'CAMBIAR CONTRASEÑA',
         
     ],
     //Idioma en INGLÉS
@@ -65,6 +67,9 @@ $aLang = [
         'NumConex' => 'NUMBER OF CONNECTIONS',
         'DateLastConex' => 'DATE LAST CONNECTION',
         'typeUser' => 'TYPE OF USER',
+        'passw' => 'CONTRASEÑA',
+        'passw2' => 'PASSWORD NEW',
+        'passw3' => 'REPET PASSWORD',
         
         //Botones ENTRADA
         'start' => 'START',
@@ -100,7 +105,8 @@ $aLang = [
         'deleteB'=>'DELETE',
         'cancelB' => 'CANCEL',
         'returnB'=>'RETURN',
-        'changeB'=>'CHANGE'
+        'changeB'=>'CHANGE',
+        'changePassw'=>'CHANGE PASSWORD'
     ]
 ];
 ?>

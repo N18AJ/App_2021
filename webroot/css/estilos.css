@@ -29,10 +29,14 @@ body {
 
 
 #header { 
-    display: flex;
     margin-top: 20px;
-    justify-content: space-around;
-    align-items: center;
+    margin-left: 20px;
+    margin-bottom: 220px;
+    background-color: white;
+}
+.logo{
+    position: fixed;
+    top: 0;
 }
 
 h1{
@@ -50,7 +54,7 @@ h1{
 /* -------- MAIN -------- */
 
 main {
-    min-height: calc(100vh - 140px);
+    min-height: calc(100vh - 220px);
     margin-top: 50px;
 }
 
@@ -69,10 +73,6 @@ footer {
     width: 100vw;
     border-top: 1px solid black;
     background-color: white;
-}
-.fixed{
-    position: fixed;
-    bottom: 0;
 }
 
 footerP {
@@ -135,7 +135,7 @@ input{
 input[write=""]{
     background: none;
     width:300px;
-    font-size: 12pt;
+    font-size: 14pt;
     border: none;
     border-bottom: 3px solid black;
     border-radius: 5px;
@@ -146,9 +146,9 @@ input[write=""]{
 input[readonly=""]{
     background: none;
     width:300px;
-    font-size: 12pt;
+    font-size: 14pt;
     border: none;
-    border-bottom: 3px solid #616161;
+    border-bottom: 3px solid #C8C8C8;
     border-radius: 5px;
     margin: auto;
     text-align: left;;
@@ -176,7 +176,7 @@ form[name="formularioIdioma"]{
     text-align: center; 
     width: 300px; 
     height: 40px; 
-    font-size: 12pt;
+    font-size: 14pt;
     color: white;
     background-color: black;
     border:none;
@@ -192,9 +192,10 @@ form[name="formularioIdioma"]{
     color: black;
     text-align: left;
     margin-left: 40px;
+    margin-bottom: 10px;
     width: 300px; 
     height: 40px; 
-    font-size: 20pt;
+    font-size: 24pt;
     border: none;
     font-weight: bold;
     display: block;
@@ -208,10 +209,11 @@ form[name="formularioIdioma"]{
     background-color: white;
     color: black;
     text-align: left;
-     margin-left: 70px;
+    margin-left: 70px;
+    margin-bottom: 10px;
     width: 300px; 
     height: 40px; 
-    font-size: 26pt;
+    font-size: 32pt;
     border: none;
     font-weight: bold;
     display: block;
@@ -243,7 +245,7 @@ form[name="formularioIdioma"]{
 .cabNom{
     text-align: left;
     font-weight: bold;
-    font-size: 14pt;
+    font-size: 16pt;
 }
 
 

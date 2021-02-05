@@ -1,3 +1,4 @@
+<header id="header" ></header>
 <!--<header class="titulo" id="persona">
     <h1><?php echo $aLang[$_COOKIE['idioma']]['person']; ?></h1>
 </header>-->
@@ -17,7 +18,7 @@
     <div id="loginDec">
         <article>
             <h2 class="bienvenida"><?php echo $aLang[$_COOKIE['idioma']]['welcome'] ?> </h2>
-            <p><?php echo ($ConexNumber >= 1) ? $aLang[$_COOKIE['idioma']]['numConnections'] : $aLang[$_COOKIE['idioma']]['numConnectionsWelcome']; ?></p>
+            <p><?php echo ($ConexNumber > 1) ? $aLang[$_COOKIE['idioma']]['numConnections'] : $aLang[$_COOKIE['idioma']]['numConnectionsWelcome']; ?></p>
             <?php echo ($LastDateConex != null) ? "<p>" . $aLang[$_COOKIE['idioma']]['lastConnection'] . "</p>" : null; ?>
         </article>
     </div>

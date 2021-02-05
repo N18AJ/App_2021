@@ -1,3 +1,4 @@
+<header id="header" ></header>
 <form class="botones" name="formularioIdioma" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
     <button class="button" id="homeB" type="submit" name="Entrada"><?php echo $aLang[$_COOKIE['idioma']]['login']; ?></button>   
     <button <?php echo ($_COOKIE['idioma'] == "es") ? "style='font-weight: bold;'" : null; ?> class="idioma" type="submit" name="idiomaElegido" value="es" >ESPAÑOL</button>
