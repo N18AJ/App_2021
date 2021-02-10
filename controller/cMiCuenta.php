@@ -43,12 +43,12 @@ if (isset($_REQUEST['cerrarSesion'])) { // si se ha pulsado el boton de Cerrar S
     exit;
 }
 //Muestra de los valores
-$usuarioActual = $_SESSION['usuarioDAW2LoginLogoffMulticapaPOO'];
+$usuarioActual = $_SESSION['usuarioDAW212LoginLogoffMulticapaPOO'];
 $CodUser = $usuarioActual->getCodUsuario();
 $DescUser = $usuarioActual->getDescUsuario();
 $Profile = $usuarioActual->getPerfil();
 $ConexNumber = $usuarioActual->getNumConexiones();
-$LastDateConex = date('d/m/Y H:i:s');
+$LastDateConex = date('d/m/Y H:i:s', UsuarioPDO::obtenerUltimaConexion($CodUser));
 
 define("OBLIGATORIO", 1); // defino e inicializo la constante a 1 para los campos que son obligatorios
 $entradaOK = true;
@@ -72,7 +72,7 @@ if (isset($_REQUEST["Aceptar"])) { // comprueba que el usuario le ha dado a al b
 
 if ($entradaOK) { // si la entrada esta bien recojo los valores introducidos y hago su tratamiento
     $oUsuario = UsuarioPDO::editarUsuario($_REQUEST['CodUsuario'], $_REQUEST['DescUsuario']);
-    $_SESSION['usuarioDAW2LoginLogoffMulticapaPOO'] = $oUsuario; // guarda en la session el objeto usuario
+    $_SESSION['usuarioDAW212LoginLogoffMulticapaPOO'] = $oUsuario; // guarda en la session el objeto usuario
     $_SESSION['paginaEnCurso'] = $controladores['inicio']; // guardamos en la variable de sesion 'pagina' la ruta del controlador del inicio
 
     header('Location: index.php'); // redirige al index.php

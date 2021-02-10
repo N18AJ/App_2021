@@ -94,3 +94,26 @@
     // Iniciar
     renderizarImagen();
 } 
+
+
+ 
+ 
+function campoO() { 
+    //Busqueda de checkBox    
+     var check = document.getElementById("check");
+        //Condición de selección OBLIGATORIA
+        if (check.checked === true){
+            //Si hay alguna seleccion se borra el mensaje de EEROR
+            document.getElementById("checkError").innerHTML = "";
+        } else {//Mensaje de ERROR si no hay selección
+           document.getElementById("checkError").innerHTML = "Acepte para seguir";
+            return false;
+        }
+        return true;
+    }
+    
+   function myBoton1(){
+       document.getElementById("checkError").innerHTML = "";
+    ventana = window.open("","ventanaBoton1","width=650, height=500");
+    ventana.document.write("<h1>Política de Privacidad</h1><h3>Responsable</h3><p>Nerea Álvarez Justel</p><h3>Finalidad</h3><p>Presentación de sercicios de diseño gráfico y desarrollo web; gestión y analisis de la utilización del sitio web; respuesta a solicitudes y peticiones; envio de comunicaciones relacionadas con nuestro servicio</p><h3>Legitimización</h3><p>Interés legitimo y consentimiento expreso</p><h3>Destinatarios</h3><p>No se ceden datos a terceros, salvo obligación legal</p><h3>Derechos</h3><p>Puede ejercer los derechos relaticos a la protecion de sus datos personales en IES Los Sauces</p>");
+} 

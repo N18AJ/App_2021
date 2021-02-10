@@ -16,7 +16,7 @@
  * 
  */
 
-if (!isset($_SESSION['usuarioDAW2LoginLogoffMulticapaPOO'])) { // si no se ha logueado le usuario
+if (!isset($_SESSION['usuarioDAW212LoginLogoffMulticapaPOO'])) { // si no se ha logueado le usuario
     header('Location: index.php'); // redirige al login
     exit;
 }
@@ -45,7 +45,7 @@ if (isset($_REQUEST['restPag'])) { // si se ha pulsado el boton de REST
 }
 
 //Muestra de los valores
-$usuarioActual = $_SESSION['usuarioDAW2LoginLogoffMulticapaPOO'];
+$usuarioActual = $_SESSION['usuarioDAW212LoginLogoffMulticapaPOO'];
 $CodUser = $usuarioActual->getCodUsuario();
 $DescUser = $usuarioActual->getDescUsuario();
 $Profile = $usuarioActual->getPerfil();

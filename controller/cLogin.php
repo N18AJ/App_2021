@@ -62,7 +62,7 @@ if (isset($_REQUEST['registrarse'])) { // si se ha pulsado el boton de registrar
     }
 
     if ($entradaOK) { // si la entrada esta bien recojo los valores introducidos y hago su tratamiento
-        $_SESSION['usuarioDAW2LoginLogoffMulticapaPOO'] = $oUsuario; // guarda en la session el objeto usuario
+        $_SESSION['usuarioDAW212LoginLogoffMulticapaPOO'] = $oUsuario; // guarda en la session el objeto usuario
         $_SESSION['paginaEnCurso'] = $controladores['inicio']; // guardamos en la variable de sesion 'pagina' la ruta del controlador del inicio
 
         header('Location: index.php'); // redirige al index.php

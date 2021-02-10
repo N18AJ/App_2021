@@ -244,4 +244,28 @@ class Usuario {
     function setImagenPerfil($imagenPerfil) {
         $this->imagenPerfil = $imagenPerfil;
     }
+    
+     /**
+     * Metodo magico __set()
+     * 
+     * Metodo que devuelve el valor de un atributo
+     * 
+     * @param mixed $atributo atributo del que queremos obtener el valor
+     * @return mixed valor del atributo que hemos pasado com parametro
+     */
+    function __get($atributo){
+        return $this->$atributo;
+    }
+
+    /**
+     * Metodo magico __set()
+     * 
+     * Metodo que cambia el valor de un atributo
+     * 
+     * @param mixed $atributo atributo al cual queremos cambiarle el valor
+     * @param mixed $nuevoValor nuevo valor que queremos para el atributo
+     */
+    function __set($atributo, $nuevoValor){
+        $this->$atributo = $nuevoValor;
+    }
 }

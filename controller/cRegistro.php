@@ -61,7 +61,7 @@ if (isset($_REQUEST["Registrarse"])) { // comprueba que el usuario le ha dado a 
 
 if ($entradaOK) { // si la entrada esta bien recojo los valores introducidos y hago su tratamiento
     $oUsuario = UsuarioPDO::altaUsuario($_REQUEST['CodUsuario'], $_REQUEST['Password'], $_REQUEST['DescUsuario']); // guardamos en la variable el resultado de la funcion que valida si existe un usuario con el codigo y password introducido
-    $_SESSION['usuarioDAW2LoginLogoffMulticapaPOO'] = $oUsuario; // guarda en la session el objeto usuario
+    $_SESSION['usuarioDAW212LoginLogoffMulticapaPOO'] = $oUsuario; // guarda en la session el objeto usuario
     $_SESSION['paginaEnCurso'] = $controladores['inicio']; // guardamos en la variable de sesion 'pagina' la ruta del controlador del inicio
 
     header('Location: index.php'); // redirige al index.php

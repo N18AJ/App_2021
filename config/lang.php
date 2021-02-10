@@ -1,7 +1,7 @@
 <?php
 
-if (isset($_SESSION['usuarioDAW2LoginLogoffMulticapaPOO'])) {
-    $usuarioActual = $_SESSION['usuarioDAW2LoginLogoffMulticapaPOO'];
+if (isset($_SESSION['usuarioDAW212LoginLogoffMulticapaPOO'])) {
+    $usuarioActual = $_SESSION['usuarioDAW212LoginLogoffMulticapaPOO'];
 }
 
 $aLang = [
@@ -18,6 +18,8 @@ $aLang = [
         'passw' => 'CONTRASEÑA',
         'passw2' => 'CONTRASEÑA NUEVA',
         'passw3' => 'REPETIR CONTRASEÑA',
+        'priv1' => 'He podido leer y entiendo la información sobre el uso de mis',
+        'priv2' => 'datos personales explicada en la ',
         
         //Botones ENTRADA
         'start' => 'INICIO',
@@ -28,6 +30,7 @@ $aLang = [
         'delete'=> 'BORRAR CUENTA',
         'restNom'=> 'REST',
         'homeB'=> 'HOME',
+        'priv' => 'Política de Privacidad',
         
         //Titulos
         'startT'=> 'INICIA SESIÓN',
@@ -70,6 +73,8 @@ $aLang = [
         'passw' => 'CONTRASEÑA',
         'passw2' => 'PASSWORD NEW',
         'passw3' => 'REPET PASSWORD',
+        'priv1' => 'I have been able to read and understand the information about the use of my',
+        'priv2' => 'personal data explained in the ',
         
         //Botones ENTRADA
         'start' => 'START',
@@ -80,6 +85,7 @@ $aLang = [
         'delete'=> 'DELETE ACCOUNT',
         'restNom'=> 'REST',
         'homeB'=> 'HOME',
+        'priv' => 'Privacy Policy',
         
         //Titulos
         'startT'=> 'START',
