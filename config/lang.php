@@ -58,6 +58,10 @@ $aLang = [
         'cancelB' => 'CANCELAR',
         'returnB'=>'VOLVER',
         'changePasswB'=>'CAMBIAR CONTRASEÑA',
+        'searchB'=>'BUSCAR',
+        'mayB'=>'MAYÚSCULAS',
+        'binB'=>'BINARIO'
+        
         
     ],
     //Idioma en INGLÉS
@@ -112,7 +116,10 @@ $aLang = [
         'cancelB' => 'CANCEL',
         'returnB'=>'RETURN',
         'changeB'=>'CHANGE',
-        'changePassw'=>'CHANGE PASSWORD'
+        'changePassw'=>'CHANGE PASSWORD',
+        'searchB'=>'SEARCH',
+        'mayB'=>'CAPITAL',
+        'binB'=>'BINARY'
     ]
 ];
 ?>

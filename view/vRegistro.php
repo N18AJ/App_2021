@@ -56,7 +56,7 @@
                 </td>
             </tr>
             <tr>
-                <td colspan="2"><input type="checkbox" id="check"><span style="margin-left: -125px;"><?php echo $aLang[$_COOKIE['idioma']]['priv1'];?><br> <?php echo $aLang[$_COOKIE['idioma']]['priv2']; ?>
+                <td colspan="2"><input type="checkbox" id="check" checked><span style="margin-left: -125px;"><?php echo $aLang[$_COOKIE['idioma']]['priv1'];?><br> <?php echo $aLang[$_COOKIE['idioma']]['priv2']; ?>
                         <a style="color:black; text-decoration: underline black;" onclick="myBoton1()"><?php echo $aLang[$_COOKIE['idioma']]['priv']; ?></a></span></td>
             </tr> 
             <tr>

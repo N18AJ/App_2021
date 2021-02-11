@@ -74,5 +74,23 @@ if (is_null($ValoresActor)) {
 
 //var_dump($ValoresActor);
 
+
+if (isset($_REQUEST['AceptarR'])) {
+    $mayus = RESTPropio::mayusculas($_REQUEST['cadena']);
+    $valorCadena = $_REQUEST['cadena'];
+} else {
+    $valorCadena = "";
+    $mayus = "¡No se ha introducido nada!";
+}
+
+
+if (isset($_REQUEST['AceptarN'])) {
+    $numero = RESTPropio::decimalBinario($_REQUEST['number']);
+    $valorNumero = $_REQUEST['number'];
+} else {
+    $valorNumero = "";
+    $numero = "¡No se ha introducido nada!";
+}
+
 $vistaEnCurso = $vistas['restPag']; //variable que contiene la vista que va a ejecutarse
 require_once $vistas['layout']; //llamamos al layout

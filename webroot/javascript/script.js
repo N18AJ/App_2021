@@ -117,3 +117,31 @@ function campoO() {
     ventana = window.open("","ventanaBoton1","width=650, height=500");
     ventana.document.write("<h1>Política de Privacidad</h1><h3>Responsable</h3><p>Nerea Álvarez Justel</p><h3>Finalidad</h3><p>Presentación de sercicios de diseño gráfico y desarrollo web; gestión y analisis de la utilización del sitio web; respuesta a solicitudes y peticiones; envio de comunicaciones relacionadas con nuestro servicio</p><h3>Legitimización</h3><p>Interés legitimo y consentimiento expreso</p><h3>Destinatarios</h3><p>No se ceden datos a terceros, salvo obligación legal</p><h3>Derechos</h3><p>Puede ejercer los derechos relaticos a la protecion de sus datos personales en IES Los Sauces</p>");
 } 
+
+
+function cambiarMayus(valor) {
+    return valor.toLowerCase();
+}
+
+
+//Creamos funcion propapia para el uso del FOCUS
+function numExp() {
+    //Variable asociada a su ID. Elemento de FOCUS
+    var numExp = document.getElementById("numero").value;
+     var btEnter = document.getElementById("btEnter");
+
+    //NUMERO DE EXPEDIENTE
+     //Le damos la condicion de VACIO pero NO OBLIGAROIO
+    if (numExp !== "") {
+        //Condición para elementos numericos 
+        if (isNaN(numExp)) {
+            document.getElementById("numero").style.border = "2px solid red";
+            document.getElementById("errorB").innerHTML = "Solo admite números";
+             btEnter.disabled = true;
+        } else {//Si no cumple la condicion valor correcto
+            document.getElementById("numero").style.border = "2px solid black";
+            document.getElementById("errorB").innerHTML = "";
+            btEnter.disabled = false;
+        }
+    }
+}
