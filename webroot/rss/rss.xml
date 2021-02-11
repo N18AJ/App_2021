@@ -19,7 +19,32 @@
             <title>App 20/21</title>
             <link>http://daw212.ieslossauces.es/proyectoDWES/proyectoTema6/App2021/index.php</link>
             <description>Subida de archivos REST y actualización de aspecto</description>
-            <pubDate>Fri, 28 Jan 2019 09:30:00 EST</pubDate>
+            <pubDate>Fri, 28 Jan 2020 09:30:00 EST</pubDate>
+            <author>nerea.alvjus@educa.jcyl.es </author>
+            <guid> </guid>
+        </item>
+
+    </channel>
+    <channel>
+        <title>NAJ</title>
+        <link>http://daw212.ieslossauces.es/</link>
+        <description>DAW2 20/21</description>
+        <category>Página Personal </category>
+        <language> es </language>
+        <copyright> &#169; </copyright>
+        <skipHours>
+                <hour> (0 and 23)</hour>
+        </skipHours>
+        <skipDays> 
+                <day>Sunday</day>
+        </skipDays>
+
+
+        <item>
+            <title>App 20/21</title>
+            <link>http://daw212.ieslossauces.es/proyectoDWES/proyectoTema6/App2021/index.php</link>
+            <description>Funcionamiento estable del REST y cambio de contraseña</description>
+            <pubDate>Fri, 5 Jan 2021 09:30:00 EST</pubDate>
             <author>nerea.alvjus@educa.jcyl.es </author>
             <guid> </guid>
         </item>

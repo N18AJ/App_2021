@@ -21,7 +21,7 @@ if (isset($_REQUEST['Cancelar'])) { // si se ha pulsado el boton de canelar
 
 $_SESSION['paginaAnterior'] = $controladores['changePassw']; // se guarda la ruta del controlador actual en la variable de sesion 'paginaAnterior' 
 
-$oUsuarioActual = $_SESSION['usuarioDAW2LoginLogoffMulticapaPOO']; //  almacenamiento de la variable se sesion en la variable
+$oUsuarioActual = $_SESSION['usuarioDAW212LoginLogoffMulticapaPOO']; //  almacenamiento de la variable se sesion en la variable
 
 
 
@@ -69,7 +69,7 @@ if (isset($_REQUEST["CambiarPassword"])) { // comprueba que el usuario le ha dad
 
 if ($entradaOK) { // si la entrada esta bien recojo los valores introducidos y hago su tratamiento
 
-    $_SESSION['usuarioDAW2LoginLogoffMulticapaPOO'] = UsuarioPDO::cambiarPassword($oUsuarioActual->codUsuario,$_REQUEST['PasswordNueva']); // guardamos en la variable de sesion el objeto usuario de la funcion
+    $_SESSION['usuarioDAW212LoginLogoffMulticapaPOO'] = UsuarioPDO::cambiarPassword($oUsuarioActual->codUsuario,$_REQUEST['PasswordNueva']); // guardamos en la variable de sesion el objeto usuario de la funcion
     $_SESSION['paginaEnCurso'] = $controladores['editProfile']; // guardamos en la variable de sesion 'pagina' la ruta del controlador de miCuenta
     header('Location: index.php'); // redirige al index.php
     exit;

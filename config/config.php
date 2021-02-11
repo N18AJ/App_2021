@@ -5,6 +5,7 @@ require_once "model/Usuario.php";
 require_once "model/UsuarioPDO.php";
 require_once "model/DBPDO.php";
 require_once "model/REST.php";
+require_once "model/RESTPropio.php";
 
 //Referencia para la vista
 $controladores = [
@@ -16,6 +17,7 @@ $controladores = [
     "deleteAccount" => "controller/cBorrarCuenta.php",
     "restPag" => "controller/cREST.php",
     "changePassw" => "controller/cPassword.php"
+    
 ];
 
 $vistas = [

@@ -3,7 +3,7 @@
 <main>
     <h1><?php echo $aLang[$_COOKIE['idioma']]['datailsT']; ?></h1> <!-- peticion del titulo-->
 
-    <form name="singup" id="login" class="enter" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+    <form onsubmit = "return campoO()" name="singup" id="login" class="enter" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
         <table class="tablaCentro">
             <tr>
                 <td>
@@ -18,12 +18,12 @@
                 </td>
             </tr>
             <tr>
-                <td> 
+                <td class="vError"> 
                     <?php
                     echo ($aErrores['CodUsuario'] != null) ? "<span style='color:#FF0000'>" . $aErrores['CodUsuario'] . "</span>" : null; // si el campo es erroneo se muestra un mensaje de error
                     ?>
                 </td>
-                <td>
+                <td class="vError">
                     <?php
                     echo ($aErrores['DescUsuario'] != null) ? "<span style='color:#FF0000'>" . $aErrores['DescUsuario'] . "</span>" : null; // si el campo es erroneo se muestra un mensaje de error
                     ?>
@@ -44,24 +44,35 @@
                 </td>
             </tr>
             <tr>
-                <td>
+                <td class="vError">
                     <?php
                     echo ($aErrores['Password'] != null) ? "<span style='color:#FF0000'>" . $aErrores['Password'] . "</span>" : null; // si el campo es erroneo se muestra un mensaje de error
                     ?>  
                 </td>
-                <td>
+                <td class="vError">
                    <?php
                     echo ($aErrores['PasswordConfirmacion'] != null) ? "<span style='color:#FF0000'>" . $aErrores['PasswordConfirmacion'] . "</span>" : null; // si el campo es erroneo se muestra un mensaje de error
                     ?> 
                 </td>
             </tr>
+            <tr>
+                <td colspan="2"><input type="checkbox" id="check" checked><span style="margin-left: -125px;"><?php echo $aLang[$_COOKIE['idioma']]['priv1'];?><br> <?php echo $aLang[$_COOKIE['idioma']]['priv2']; ?>
+                        <a style="color:black; text-decoration: underline black;" onclick="myBoton1()"><?php echo $aLang[$_COOKIE['idioma']]['priv']; ?></a></span></td>
+            </tr> 
+            <tr>
+                <td colspan="2" style="color: red; text-align: center" id="checkError"></td>
+            </tr>  
         </table>
         <br>
         <div class="registro">
-            <button class="button" type="submit" name="Registrarse"><?php echo $aLang[$_COOKIE['idioma']]['signup']; ?></button>
+            <button class="button" type="submit" id="btEnter" name="Registrarse"><?php echo $aLang[$_COOKIE['idioma']]['signup']; ?></button>
+        </div>
+
+    </form>
+    <form name="singup" id="login" class="enter" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+        <div class="registro">
             <button class="button" name="Cancelar"><?php echo $aLang[$_COOKIE['idioma']]['cancelB']; ?></button>
         </div>
 
     </form>
 </main>
-

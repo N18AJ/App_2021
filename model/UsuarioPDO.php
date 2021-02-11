@@ -28,7 +28,7 @@ class UsuarioPDO {
         
         // comprueba que el usuario y el password introducido existen en la base de datos
         $consulta = "Select * from T01_Usuario where T01_CodUsuario=? and T01_Password=?";
-        $passwordEncriptado=hash("sha256", ($codUsuario.$password)); // enctripta el password pasado como parametro
+        $passwordEncriptado = hash("sha256", ($codUsuario.$password)); // enctripta el password pasado como parametro
         $resultado = DBPDO::ejecutaConsulta($consulta, [$codUsuario,$passwordEncriptado]); // guardo en la variabnle resultado el resultado que me devuelve la funcion que ejecuta la consulta con los paramtros pasados por parmetro
         
         if($resultado->rowCount()>0){ // si la consulta me devuleve algun resultado
@@ -49,6 +49,18 @@ class UsuarioPDO {
     }
     
   
+    
+    public static function obtenerUltimaConexion($codUsuario) {
+        $fecha = null;
+        $consulta = "SELECT T01_FechaHoraUltimaConexion FROM T01_Usuario WHERE T01_CodUsuario=?";
+        $resultado = DBPDO::ejecutaConsulta($consulta, [$codUsuario]);
+        if ($resultado->rowCount() > 0) {
+            $oUsuarioConsulta = $resultado->fetchObject();
+            $fecha = $oUsuarioConsulta->T01_FechaHoraUltimaConexion;
+        }
+        return $fecha;
+    }
+    
 
     /**
      * Método borrarUsuario()

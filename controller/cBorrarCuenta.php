@@ -36,7 +36,7 @@ if (isset($_REQUEST['cerrarSesion'])) { // si se ha pulsado el boton de Cerrar S
 }
 
 //Muestra de los valores
-$usuarioActual = $_SESSION['usuarioDAW2LoginLogoffMulticapaPOO'];
+$usuarioActual = $_SESSION['usuarioDAW212LoginLogoffMulticapaPOO'];
 $CodUser = $usuarioActual->getCodUsuario();
 $DescUser = $usuarioActual->getDescUsuario();
 $Profile = $usuarioActual->getPerfil();
