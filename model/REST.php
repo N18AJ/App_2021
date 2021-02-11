@@ -27,4 +27,9 @@ class REST {
     public static function actorBB($number) {
         return json_decode(file_get_contents("https://www.breakingbadapi.com/api/characters/$number"), true);        
     }
+    
+    
+    public static function mayusculas($cadena) {
+        return json_decode(file_get_contents("https://daw218.ieslossauces.es/proyectoDWES/AplicacionFinal2021/api/aMayusculas.php?cadena=$cadena"), true);
+    }
 }

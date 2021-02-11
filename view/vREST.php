@@ -61,8 +61,7 @@
                 <h2>Aplicación Rodrigo</h2>
                 <h3>Cambio minúsculas / MAYÚSCULAS</h3>
                     <form class="otros"  action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-                        <div id="respuestarest">
-                            <p id="titulorest"><?php echo $tituloEnCurso ?></p>  
+                        <div id="respuestarest"> 
                             <p><?php echo $mayus ?></p>
                         </div>
                         <input id="cadena" onkeyup="this.value = cambiarMayus(this.value)" type="text" placeholder="Escriba ..." name="cadena" value="<?php echo $valorCadena ?>"/>
@@ -76,8 +75,7 @@
                 <h2>Mi Aplicación</h2>
                 <h3>Cambio Decimal / Binario</h3>
                 <form class="otros"  action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-                    <div id="respuestarest">
-                        <p id="titulorest"><?php echo $tituloEnCurso ?></p>  
+                    <div id="respuestarest">  
                         <p><?php echo $numero ?></p>
                     </div>
                     <input id="numero"  onblur="numExp()" type="text" placeholder="Introduce números" name="number" value="<?php echo $valorNumero ?>"/>
