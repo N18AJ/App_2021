@@ -76,7 +76,7 @@ if (is_null($ValoresActor)) {
 
 
 if (isset($_REQUEST['AceptarR'])) {
-    $mayus = RESTPropio::mayusculas($_REQUEST['cadena']);
+    $mayus = REST::mayusculas($_REQUEST['cadena']);
     $valorCadena = $_REQUEST['cadena'];
 } else {
     $valorCadena = "";
