@@ -49,7 +49,15 @@ class UsuarioPDO {
     }
     
   
-    
+    /**
+     * Método obtenerUltimaConexion()
+     * 
+     * Da la fecha de la última conexión
+     * 
+     * @access public
+     * @param string $codUsuario Código del usuario
+     * @return Usuario Objeto Usuario modificado.
+     */
     public static function obtenerUltimaConexion($codUsuario) {
         $fecha = null;
         $consulta = "SELECT T01_FechaHoraUltimaConexion FROM T01_Usuario WHERE T01_CodUsuario=?";
@@ -133,15 +141,15 @@ class UsuarioPDO {
     }
 
     
-      /**
-     * Metodo cambiarPassword()
-     * 
-     * Metodo que cambia el password del usuario pasado como parametro
-     *
-     * @param  string $codUsuario codigo de usuario del usuario al que queremos cambiar el password
-     * @param  string $passwordNueva nueva password que se quiere poner al usuario
-     * @return null|\Usuario devuelve un objeto de tipo Usuario con los datos guardados en la base de datos y null si no se ha podido modificar el password
-     */
+    /**
+    * Metodo cambiarPassword()
+    * 
+    * Metodo que cambia el password del usuario pasado como parametro
+    *
+    * @param  string $codUsuario codigo de usuario del usuario al que queremos cambiar el password
+    * @param  string $passwordNueva nueva password que se quiere poner al usuario
+    * @return null|\Usuario devuelve un objeto de tipo Usuario con los datos guardados en la base de datos y null si no se ha podido modificar el password
+    */
     public static function cambiarPassword($codUsuario, $passwordNueva){
         $oUsuario = null;
 
