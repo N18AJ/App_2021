@@ -1,0 +1,86 @@
+\hypertarget{class_r_e_s_t}{}\doxysection{REST Class Reference}
+\label{class_r_e_s_t}\index{REST@{REST}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_r_e_s_t_a5f5849ef35f033afd73607202706ccf6}{sevicio\+APOD}} (\$fecha)
+\item 
+static \mbox{\hyperlink{class_r_e_s_t_ab9003e45c4a86fddef73e6d5d3e19a72}{actor\+BB}} (\$number)
+\item 
+static \mbox{\hyperlink{class_r_e_s_t_ab364e4d1536a90229f18d3adac0a9516}{mayusculas}} (\$cadena)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class \mbox{\hyperlink{_r_e_s_t_8php}{REST.\+php}}
+
+Clase cuyos métodos se encargan de realizar a apis ajenas
+
+\begin{DoxyAuthor}{Author}
+Nerea Álvarez Justel \href{mailto:nerea.alvjus@educa.jcyl.es}{\texttt{ nerea.\+alvjus@educa.\+jcyl.\+es}} 
+\end{DoxyAuthor}
+\begin{DoxySince}{Since}
+Version 1.\+0 
+\end{DoxySince}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2020 -\/ 2021, Nerea Álvarez Justel 
+\end{DoxyCopyright}
+\begin{DoxyVersion}{Version}
+1.\+4 
+\end{DoxyVersion}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_r_e_s_t_ab9003e45c4a86fddef73e6d5d3e19a72}\label{class_r_e_s_t_ab9003e45c4a86fddef73e6d5d3e19a72}} 
+\index{REST@{REST}!actorBB@{actorBB}}
+\index{actorBB@{actorBB}!REST@{REST}}
+\doxysubsubsection{\texorpdfstring{actorBB()}{actorBB()}}
+{\footnotesize\ttfamily static actor\+BB (\begin{DoxyParamCaption}\item[{}]{\$number }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Llama al servicio API \mbox{\hyperlink{class_r_e_s_t}{REST}}, que nos devuelve la informacion de un personaje de la serie Breaking Bad.
+
+
+\begin{DoxyParams}[1]{Parameters}
+int & {\em \$number} & numbero del persinaje al que buscamos. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string\mbox{[}\mbox{]} devuelve un array que contiene información sobre el personaje. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_r_e_s_t_ab364e4d1536a90229f18d3adac0a9516}\label{class_r_e_s_t_ab364e4d1536a90229f18d3adac0a9516}} 
+\index{REST@{REST}!mayusculas@{mayusculas}}
+\index{mayusculas@{mayusculas}!REST@{REST}}
+\doxysubsubsection{\texorpdfstring{mayusculas()}{mayusculas()}}
+{\footnotesize\ttfamily static mayusculas (\begin{DoxyParamCaption}\item[{}]{\$cadena }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Llama al servicio API \mbox{\hyperlink{class_r_e_s_t}{REST}}, que nos realiza un cambio de minúsculas a MAYÚ\+SCULAS
+
+
+\begin{DoxyParams}[1]{Parameters}
+string & {\em \$cadena} & cadena que queremos que cambie \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string devuelve el cambio de la cadena. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_r_e_s_t_a5f5849ef35f033afd73607202706ccf6}\label{class_r_e_s_t_a5f5849ef35f033afd73607202706ccf6}} 
+\index{REST@{REST}!sevicioAPOD@{sevicioAPOD}}
+\index{sevicioAPOD@{sevicioAPOD}!REST@{REST}}
+\doxysubsubsection{\texorpdfstring{sevicioAPOD()}{sevicioAPOD()}}
+{\footnotesize\ttfamily static sevicio\+APOD (\begin{DoxyParamCaption}\item[{}]{\$fecha }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Llama al servicio API \mbox{\hyperlink{class_r_e_s_t}{REST}} APOD(\+Astronomy Picture of the Day), que nos devuelve la imagen atronómica del día e información relativa a esta.
+
+
+\begin{DoxyParams}[1]{Parameters}
+type & {\em \$fecha} & la fecha que le vamos a pasar al servicio para que busque una imagen. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+array que contiene información sobre la imagen astronómica del día. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+F\+:/\+PDWA2/proyecto\+DWES/proyecto\+Tema6/\+App2021/model/\mbox{\hyperlink{_r_e_s_t_8php}{REST.\+php}}\end{DoxyCompactItemize}

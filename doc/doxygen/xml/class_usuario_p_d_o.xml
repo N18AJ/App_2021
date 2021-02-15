@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_usuario_p_d_o" kind="class" language="PHP" prot="public">
+    <compoundname>UsuarioPDO</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_usuario_p_d_o_1ae85b032587e9e5fa8844d0431f32578e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static validarUsuario</definition>
+        <argsstring>($codUsuario, $password)</argsstring>
+        <name>validarUsuario</name>
+        <param>
+          <declname>$codUsuario</declname>
+        </param>
+        <param>
+          <declname>$password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Metodo <ref refid="class_usuario_p_d_o_1ae85b032587e9e5fa8844d0431f32578e" kindref="member">validarUsuario()</ref></para>
+<para>Metodo que valida si existe un determinado usuario y password en la base de datos. Si existe el usuario actualiza la ultima conexion y el numero de conexiones de ese usuario y lo devuelve. Si no existe el usuario devuelve null.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$codUsuario</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>codigo del usuario </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>password del usuario </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>mixed[] Si existe, un array con un objeto de tipo <ref refid="class_usuario" kindref="compound">Usuario</ref> con los datos de la base de datos y la fechaHoraUltimaConexionAnterior. Si no existe null. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/PDWA2/proyectoDWES/proyectoTema6/App2021/model/UsuarioPDO.php" line="26" column="28" bodyfile="F:/PDWA2/proyectoDWES/proyectoTema6/App2021/model/UsuarioPDO.php" bodystart="26" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_usuario_p_d_o_1adb50018f443143dd77c06864a2dcec7d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static obtenerUltimaConexion</definition>
+        <argsstring>($codUsuario)</argsstring>
+        <name>obtenerUltimaConexion</name>
+        <param>
+          <declname>$codUsuario</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Método <ref refid="class_usuario_p_d_o_1adb50018f443143dd77c06864a2dcec7d" kindref="member">obtenerUltimaConexion()</ref></para>
+<para>Da la fecha de la última conexión</para>
+<para>@access public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$codUsuario</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Código del usuario </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_usuario" kindref="compound">Usuario</ref> Objeto <ref refid="class_usuario" kindref="compound">Usuario</ref> modificado. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/PDWA2/proyectoDWES/proyectoTema6/App2021/model/UsuarioPDO.php" line="61" column="28" bodyfile="F:/PDWA2/proyectoDWES/proyectoTema6/App2021/model/UsuarioPDO.php" bodystart="61" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_usuario_p_d_o_1ac08be54eb31f194fb1bdd1457a2c008e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static borrarUsuario</definition>
+        <argsstring>($codUsuario)</argsstring>
+        <name>borrarUsuario</name>
+        <param>
+          <declname>$codUsuario</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Método <ref refid="class_usuario_p_d_o_1ac08be54eb31f194fb1bdd1457a2c008e" kindref="member">borrarUsuario()</ref></para>
+<para>Borra el usuario</para>
+<para>@access public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$codUsuario</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Código del usuario </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/PDWA2/proyectoDWES/proyectoTema6/App2021/model/UsuarioPDO.php" line="81" column="28" bodyfile="F:/PDWA2/proyectoDWES/proyectoTema6/App2021/model/UsuarioPDO.php" bodystart="81" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_usuario_p_d_o_1ade24bed65f01d35bd1b35d93a44f5895" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static editarUsuario</definition>
+        <argsstring>($codUsuario, $descripcion)</argsstring>
+        <name>editarUsuario</name>
+        <param>
+          <declname>$codUsuario</declname>
+        </param>
+        <param>
+          <declname>$descripcion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Método <ref refid="class_usuario_p_d_o_1ade24bed65f01d35bd1b35d93a44f5895" kindref="member">editarUsuario()</ref></para>
+<para>Modifica la descripción de un usuario.</para>
+<para>@access public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$codUsuario</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Código del usuario </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$descripcion</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Descripción del usuario </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_usuario" kindref="compound">Usuario</ref> Objeto <ref refid="class_usuario" kindref="compound">Usuario</ref> modificado. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/PDWA2/proyectoDWES/proyectoTema6/App2021/model/UsuarioPDO.php" line="96" column="28" bodyfile="F:/PDWA2/proyectoDWES/proyectoTema6/App2021/model/UsuarioPDO.php" bodystart="96" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_usuario_p_d_o_1a0f4dea8bd0cf0563ac39bc0187dfc068" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static altaUsuario</definition>
+        <argsstring>($codUsuario, $password, $descripcion)</argsstring>
+        <name>altaUsuario</name>
+        <param>
+          <declname>$codUsuario</declname>
+        </param>
+        <param>
+          <declname>$password</declname>
+        </param>
+        <param>
+          <declname>$descripcion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Método <ref refid="class_usuario_p_d_o_1a0f4dea8bd0cf0563ac39bc0187dfc068" kindref="member">altaUsuario()</ref></para>
+<para>Crea un usuario nuevo.</para>
+<para>@access public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$codUsuario</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Código del usuario </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Contraseña del usuario </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$descripcion</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Descripción del usuario </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_usuario" kindref="compound">Usuario</ref> Objeto <ref refid="class_usuario" kindref="compound">Usuario</ref> nuevo. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/PDWA2/proyectoDWES/proyectoTema6/App2021/model/UsuarioPDO.php" line="123" column="28" bodyfile="F:/PDWA2/proyectoDWES/proyectoTema6/App2021/model/UsuarioPDO.php" bodystart="123" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="class_usuario_p_d_o_1a22b6e8430b017ddbda961845fc5243c0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static cambiarPassword</definition>
+        <argsstring>($codUsuario, $passwordNueva)</argsstring>
+        <name>cambiarPassword</name>
+        <param>
+          <declname>$codUsuario</declname>
+        </param>
+        <param>
+          <declname>$passwordNueva</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Metodo <ref refid="class_usuario_p_d_o_1a22b6e8430b017ddbda961845fc5243c0" kindref="member">cambiarPassword()</ref></para>
+<para>Metodo que cambia el password del usuario pasado como parametro</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$codUsuario</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>codigo de usuario del usuario al que queremos cambiar el password </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$passwordNueva</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nueva password que se quiere poner al usuario </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>null|\Usuario devuelve un objeto de tipo <ref refid="class_usuario" kindref="compound">Usuario</ref> con los datos guardados en la base de datos y null si no se ha podido modificar el password </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/PDWA2/proyectoDWES/proyectoTema6/App2021/model/UsuarioPDO.php" line="153" column="28" bodyfile="F:/PDWA2/proyectoDWES/proyectoTema6/App2021/model/UsuarioPDO.php" bodystart="153" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="class_usuario_p_d_o_1a52fa586fecf82d3f4df7ff5dac39afc8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static validarCodNoExiste</definition>
+        <argsstring>($codUsuario)</argsstring>
+        <name>validarCodNoExiste</name>
+        <param>
+          <declname>$codUsuario</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Método <ref refid="class_usuario_p_d_o_1a52fa586fecf82d3f4df7ff5dac39afc8" kindref="member">validarCodNoExiste()</ref></para>
+<para>Valida si existe un usuario en la base de datos a través de su código.</para>
+<para>@access public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$codUsuario</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Código del usuario </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean true = usuario inexistente, false = usuario existente. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/PDWA2/proyectoDWES/proyectoTema6/App2021/model/UsuarioPDO.php" line="184" column="28" bodyfile="F:/PDWA2/proyectoDWES/proyectoTema6/App2021/model/UsuarioPDO.php" bodystart="184" bodyend="195"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class <ref refid="class_usuario_p_d_o" kindref="compound">UsuarioPDO</ref></para>
+<para>Clase cuyos métodos se encargan de realizar consultas a la tabla T_01Usuario de la base de datos.</para>
+<para><simplesect kind="author"><para>Nerea Álvarez Justel <ulink url="mailto:nerea.alvjus@educa.jcyl.es">nerea.alvjus@educa.jcyl.es</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>Version 1.0 </para>
+</simplesect>
+<simplesect kind="copyright"><para>Copyright (c) 2020 - 2021, Nerea Álvarez Justel </para>
+</simplesect>
+<simplesect kind="version"><para>1.4 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="F:/PDWA2/proyectoDWES/proyectoTema6/App2021/model/UsuarioPDO.php" line="13" column="1" bodyfile="F:/PDWA2/proyectoDWES/proyectoTema6/App2021/model/UsuarioPDO.php" bodystart="13" bodyend="197"/>
+    <listofallmembers>
+      <member refid="class_usuario_p_d_o_1a0f4dea8bd0cf0563ac39bc0187dfc068" prot="public" virt="non-virtual"><scope>UsuarioPDO</scope><name>altaUsuario</name></member>
+      <member refid="class_usuario_p_d_o_1ac08be54eb31f194fb1bdd1457a2c008e" prot="public" virt="non-virtual"><scope>UsuarioPDO</scope><name>borrarUsuario</name></member>
+      <member refid="class_usuario_p_d_o_1a22b6e8430b017ddbda961845fc5243c0" prot="public" virt="non-virtual"><scope>UsuarioPDO</scope><name>cambiarPassword</name></member>
+      <member refid="class_usuario_p_d_o_1ade24bed65f01d35bd1b35d93a44f5895" prot="public" virt="non-virtual"><scope>UsuarioPDO</scope><name>editarUsuario</name></member>
+      <member refid="class_usuario_p_d_o_1adb50018f443143dd77c06864a2dcec7d" prot="public" virt="non-virtual"><scope>UsuarioPDO</scope><name>obtenerUltimaConexion</name></member>
+      <member refid="class_usuario_p_d_o_1a52fa586fecf82d3f4df7ff5dac39afc8" prot="public" virt="non-virtual"><scope>UsuarioPDO</scope><name>validarCodNoExiste</name></member>
+      <member refid="class_usuario_p_d_o_1ae85b032587e9e5fa8844d0431f32578e" prot="public" virt="non-virtual"><scope>UsuarioPDO</scope><name>validarUsuario</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

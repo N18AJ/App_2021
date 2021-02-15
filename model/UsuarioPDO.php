@@ -5,10 +5,10 @@
  *
  * Clase cuyos métodos se encargan de realizar consultas a la tabla T_01Usuario de la base de datos.
  * 
- * @author Nerea Álvarez Justel
+ * @author Nerea Álvarez Justel <nerea.alvjus@educa.jcyl.es>
  * @since Version 1.0
- * @copyright 24-01-2021
- * @version 1.0
+ * @copyright Copyright (c) 2020 - 2021, Nerea Álvarez Justel
+ * @version 1.4
  */
 class UsuarioPDO {
 
@@ -21,7 +21,7 @@ class UsuarioPDO {
      * 
      * @param string $codUsuario codigo del usuario
      * @param string $password password del usuario
-     * @return null|\Usuario Si existe,un objeto de tipo Usuario con los datos de la base de datos. Si no existe null.
+     * @return mixed[] Si existe, un array con un objeto de tipo Usuario con los datos de la base de datos y la fechaHoraUltimaConexionAnterior. Si no existe null.
      */
     public static function validarUsuario($codUsuario, $password){
         $oUsuario = null; // inicializo la variable que tendrá el objeto de clase ususario en el casod e que se encuentre en la base de datos
