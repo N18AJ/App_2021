@@ -19,7 +19,7 @@ Base Multicapas
 - CSS.
 
 **BACK END**
-- PHP 7.4.
+- PHP 7.4. (Modulos core, dom, ftp, json, msqli, PDO, Phar, session, sockets, xdebug, xml, zip)
 - MySQL
 
 **Desarrollo**
