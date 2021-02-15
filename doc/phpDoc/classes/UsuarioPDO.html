@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>AplicacionLoginLogoffMulticapa</title>
+    <title>App2021</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="../">
     <link rel="icon" href="images/favicon.ico"/>
@@ -19,7 +19,7 @@
     </head>
 <body id="top">
     <header class="phpdocumentor-header phpdocumentor-section">
-    <h1 class="phpdocumentor-title"><a href="" class="phpdocumentor-title__link">AplicacionLoginLogoffMulticapa</a></h1>
+    <h1 class="phpdocumentor-title"><a href="" class="phpdocumentor-title__link">App2021</a></h1>
     <input class="phpdocumentor-header__menu-button" type="checkbox" id="menu-button" name="menu-button" />
     <label class="phpdocumentor-header__menu-icon" for="menu-button">
         <i class="fas fa-bars"></i>
@@ -114,7 +114,7 @@
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"><p>Nerea Álvarez Justel</p>
+                                                 <section class="phpdocumentor-description"><p>Nerea Álvarez Justel <a href="mailto:nerea.alvjus@educa.jcyl.es">nerea.alvjus@educa.jcyl.es</a></p>
 </section>
 
                                     </dd>
@@ -132,7 +132,7 @@
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"><p>24-01-2021</p>
+                                                 <section class="phpdocumentor-description"><p>Copyright (c) 2020 - 2021, Nerea Álvarez Justel</p>
 </section>
 
                                     </dd>
@@ -140,7 +140,7 @@
                     <span class="phpdocumentor-tag__name">version</span>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
-                                            <span class="phpdocumentor-tag-link">1.0</span>
+                                            <span class="phpdocumentor-tag-link">1.4</span>
                                                                                 
                                                  <section class="phpdocumentor-description"></section>
 
@@ -159,13 +159,6 @@
 
 <dl class="phpdocumentor-table-of-contents">
                     <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/UsuarioPDO.html#method_actualizarUltimaConexion">actualizarUltimaConexion()</a>
-    <span>
-                        &nbsp;: mixed    </span>
-</dt>
-<dd>Método actualizarUltimaConexion()</dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/UsuarioPDO.html#method_altaUsuario">altaUsuario()</a>
     <span>
                         &nbsp;: <a href="classes/Usuario.html"><abbr title="\Usuario">Usuario</abbr></a>    </span>
@@ -180,11 +173,25 @@
 <dd>Método borrarUsuario()</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/UsuarioPDO.html#method_cambiarPassword">cambiarPassword()</a>
+    <span>
+                        &nbsp;: null|<a href="classes/Usuario.html"><abbr title="\Usuario">Usuario</abbr></a>    </span>
+</dt>
+<dd>Metodo cambiarPassword()</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/UsuarioPDO.html#method_editarUsuario">editarUsuario()</a>
     <span>
                         &nbsp;: <a href="classes/Usuario.html"><abbr title="\Usuario">Usuario</abbr></a>    </span>
 </dt>
 <dd>Método editarUsuario()</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/UsuarioPDO.html#method_obtenerUltimaConexion">obtenerUltimaConexion()</a>
+    <span>
+                        &nbsp;: <a href="classes/Usuario.html"><abbr title="\Usuario">Usuario</abbr></a>    </span>
+</dt>
+<dd>Método obtenerUltimaConexion()</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/UsuarioPDO.html#method_validarCodNoExiste">validarCodNoExiste()</a>
@@ -196,9 +203,9 @@
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/UsuarioPDO.html#method_validarUsuario">validarUsuario()</a>
     <span>
-                        &nbsp;: null    </span>
+                        &nbsp;: array&lt;string|int, mixed&gt;    </span>
 </dt>
-<dd>Método validarUsuario()</dd>
+<dd>Metodo validarUsuario()</dd>
 
         </dl>
 
@@ -219,68 +226,6 @@
             -public
                                     -static                    "
 >
-    <h4 class="phpdocumentor-element__name" id="method_actualizarUltimaConexion">
-        actualizarUltimaConexion()
-        <a href="classes/UsuarioPDO.html#method_actualizarUltimaConexion" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="model/UsuarioPDO.php"><a href="files/model-usuariopdo.html"><abbr title="model/UsuarioPDO.php">UsuarioPDO.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">51</span>
-</aside>
-
-        <p class="phpdocumentor-summary">Método actualizarUltimaConexion()</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">actualizarUltimaConexion</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$codUsuario</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
-
-        <section class="phpdocumentor-description"><p>Actualiza la última conexión del usuario y el número total de conexiones establecidas por el usuario.</p>
-</section>
-
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$codUsuario</span>
-                : <span class="phpdocumentor-signature__argument__return-type">string</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><p>Código del usuario</p>
-</section>
-
-            </dd>
-            </dl>
-
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">access</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>public</p>
-</section>
-
-                                    </dd>
-                        </dl>
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
-            &mdash;
-            <section class="phpdocumentor-description"></section>
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                    -static                    "
->
     <h4 class="phpdocumentor-element__name" id="method_altaUsuario">
         altaUsuario()
         <a href="classes/UsuarioPDO.html#method_altaUsuario" class="headerlink"><i class="fas fa-link"></i></a>
@@ -288,7 +233,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="model/UsuarioPDO.php"><a href="files/model-usuariopdo.html"><abbr title="model/UsuarioPDO.php">UsuarioPDO.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">106</span>
+    <span class="phpdocumentor-element-found-in__line">123</span>
 </aside>
 
         <p class="phpdocumentor-summary">Método altaUsuario()</p>
@@ -369,7 +314,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="model/UsuarioPDO.php"><a href="files/model-usuariopdo.html"><abbr title="model/UsuarioPDO.php">UsuarioPDO.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">64</span>
+    <span class="phpdocumentor-element-found-in__line">81</span>
 </aside>
 
         <p class="phpdocumentor-summary">Método borrarUsuario()</p>
@@ -424,6 +369,63 @@
             -public
                                     -static                    "
 >
+    <h4 class="phpdocumentor-element__name" id="method_cambiarPassword">
+        cambiarPassword()
+        <a href="classes/UsuarioPDO.html#method_cambiarPassword" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="model/UsuarioPDO.php"><a href="files/model-usuariopdo.html"><abbr title="model/UsuarioPDO.php">UsuarioPDO.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">153</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Metodo cambiarPassword()</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">cambiarPassword</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$codUsuario</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$passwordNueva</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">null|<a href="classes/Usuario.html"><abbr title="\Usuario">Usuario</abbr></a></span></code>
+
+        <section class="phpdocumentor-description"><p>Metodo que cambia el password del usuario pasado como parametro</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$codUsuario</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>codigo de usuario del usuario al que queremos cambiar el password</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$passwordNueva</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>nueva password que se quiere poner al usuario</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">null|<a href="classes/Usuario.html"><abbr title="\Usuario">Usuario</abbr></a></span>
+            &mdash;
+            <section class="phpdocumentor-description"><p>devuelve un objeto de tipo Usuario con los datos guardados en la base de datos y null si no se ha podido modificar el password</p>
+</section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
     <h4 class="phpdocumentor-element__name" id="method_editarUsuario">
         editarUsuario()
         <a href="classes/UsuarioPDO.html#method_editarUsuario" class="headerlink"><i class="fas fa-link"></i></a>
@@ -431,7 +433,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="model/UsuarioPDO.php"><a href="files/model-usuariopdo.html"><abbr title="model/UsuarioPDO.php">UsuarioPDO.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">79</span>
+    <span class="phpdocumentor-element-found-in__line">96</span>
 </aside>
 
         <p class="phpdocumentor-summary">Método editarUsuario()</p>
@@ -496,6 +498,69 @@
             -public
                                     -static                    "
 >
+    <h4 class="phpdocumentor-element__name" id="method_obtenerUltimaConexion">
+        obtenerUltimaConexion()
+        <a href="classes/UsuarioPDO.html#method_obtenerUltimaConexion" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="model/UsuarioPDO.php"><a href="files/model-usuariopdo.html"><abbr title="model/UsuarioPDO.php">UsuarioPDO.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">61</span>
+</aside>
+
+        <p class="phpdocumentor-summary">Método obtenerUltimaConexion()</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">obtenerUltimaConexion</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$codUsuario</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/Usuario.html"><abbr title="\Usuario">Usuario</abbr></a></span></code>
+
+        <section class="phpdocumentor-description"><p>Da la fecha de la última conexión</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$codUsuario</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Código del usuario</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                        </dl>
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type"><a href="classes/Usuario.html"><abbr title="\Usuario">Usuario</abbr></a></span>
+            &mdash;
+            <section class="phpdocumentor-description"><p>Objeto Usuario modificado.</p>
+</section>
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
     <h4 class="phpdocumentor-element__name" id="method_validarCodNoExiste">
         validarCodNoExiste()
         <a href="classes/UsuarioPDO.html#method_validarCodNoExiste" class="headerlink"><i class="fas fa-link"></i></a>
@@ -503,7 +568,7 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="model/UsuarioPDO.php"><a href="files/model-usuariopdo.html"><abbr title="model/UsuarioPDO.php">UsuarioPDO.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">135</span>
+    <span class="phpdocumentor-element-found-in__line">184</span>
 </aside>
 
         <p class="phpdocumentor-summary">Método validarCodNoExiste()</p>
@@ -566,17 +631,17 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="model/UsuarioPDO.php"><a href="files/model-usuariopdo.html"><abbr title="model/UsuarioPDO.php">UsuarioPDO.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">28</span>
+    <span class="phpdocumentor-element-found-in__line">26</span>
 </aside>
 
-        <p class="phpdocumentor-summary">Método validarUsuario()</p>
+        <p class="phpdocumentor-summary">Metodo validarUsuario()</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">validarUsuario</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$codUsuario</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$password</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">null</span></code>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">validarUsuario</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$codUsuario</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$password</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
 
-        <section class="phpdocumentor-description"><p>Valida si existe un determinado usuario y password en la base de datos.</p>
-<p>Si existe el usuario actualiza la ultima conexion y el numero de conexiones de ese usuario y lo devuelve.
+        <section class="phpdocumentor-description"><p>Metodo que valida si existe un determinado usuario y password en la base de datos.
+Si existe el usuario actualiza la ultima conexion y el numero de conexiones de ese usuario y lo devuelve.
 Si no existe el usuario devuelve null.</p>
 </section>
 
@@ -587,7 +652,7 @@ Si no existe el usuario devuelve null.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><p>Código del usuario</p>
+                    <section class="phpdocumentor-description"><p>codigo del usuario</p>
 </section>
 
             </dd>
@@ -596,33 +661,18 @@ Si no existe el usuario devuelve null.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><p>Contraseña del usuario</p>
+                    <section class="phpdocumentor-description"><p>password del usuario</p>
 </section>
 
             </dd>
             </dl>
 
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">access</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                                
-                                                 <section class="phpdocumentor-description"><p>public</p>
-</section>
-
-                                    </dd>
-                        </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">null</span>
+    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
             &mdash;
-            <section class="phpdocumentor-description"><p>\ Usuario Null o un objeto Usuario.</p>
+            <section class="phpdocumentor-description"><p>Si existe, un array con un objeto de tipo Usuario con los datos de la base de datos y la fechaHoraUltimaConexionAnterior. Si no existe null.</p>
 </section>
 
     

@@ -73,6 +73,7 @@
                 <a href="http://daw212.ieslossauces.es/" target="_blank"> <img class="icon" src="webroot/media/images/one.png" alt="oneandone icon" width="30"></a>
                 <a href="doc/cv.pdf" target="_blank"> <img src="webroot/media/images/cv.png" alt="Curriculum Vitae" width="20"></a>
                 <a href="doc/phpDoc/index.html" target="_blank"> <img class="icon" src="webroot/media/images/phpDoc.png" alt="phpDoc" width="25"></a>
+                <a href="doc/doxygen/html/index.html" target="_blank"> <img class="icon" src="webroot/media/images/doxygen.png" alt="doxyGen" width="25"></a>
                 <a href="https://www.zara.com" target="_blank"><img class="icon" width="50" src="webroot/media/images/zara.png" ></a>
             </div>
         </footer>

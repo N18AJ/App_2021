@@ -5,10 +5,10 @@
  *
  * Clase cuyo método permite establecer una conexión con la base de datos y realizarle consultas.
  * 
- * @author Nerea Álvarez Justel
+ * @author Nerea Álvarez Justel <nerea.alvjus@educa.jcyl.es>
  * @since Version 1.0
- * @copyright 24-01-2021
- * @version 1.0
+ * @copyright Copyright (c) 2020 - 2021, Nerea Álvarez Justel
+ * @version 1.4
  */
 class DBPDO {
 
@@ -20,7 +20,7 @@ class DBPDO {
      * @access public
      * @param $sentenciaSQL Código SQL 
      * @param $parametros Datos necesarios para realizar la consulta e insertado en el código SQL.
-     * @return consulta La suma de todos los argumentos
+     * @return null|PDOStatement resultado que devolverá la consulta
      */
     public static function ejecutaConsulta($sentenciaSQL, $parametros) {
         try {

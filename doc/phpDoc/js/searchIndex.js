@@ -171,6 +171,16 @@ Search.appendIndex(
             "summary": "Metodo\u0020setImagenPerfil\u0028\u0029",
             "url": "classes/Usuario.html#method_setImagenPerfil"
         },                {
+            "fqsen": "\\Usuario\u003A\u003A__get\u0028\u0029",
+            "name": "__get",
+            "summary": "Metodo\u0020magico\u0020__set\u0028\u0029",
+            "url": "classes/Usuario.html#method___get"
+        },                {
+            "fqsen": "\\Usuario\u003A\u003A__set\u0028\u0029",
+            "name": "__set",
+            "summary": "Metodo\u0020magico\u0020__set\u0028\u0029",
+            "url": "classes/Usuario.html#method___set"
+        },                {
             "fqsen": "\\Usuario\u003A\u003A\u0024codUsuario",
             "name": "codUsuario",
             "summary": "C\u00F3digo\u0020del\u0020usuario",
@@ -213,13 +223,13 @@ Search.appendIndex(
         },                {
             "fqsen": "\\UsuarioPDO\u003A\u003AvalidarUsuario\u0028\u0029",
             "name": "validarUsuario",
-            "summary": "M\u00E9todo\u0020validarUsuario\u0028\u0029",
+            "summary": "Metodo\u0020validarUsuario\u0028\u0029",
             "url": "classes/UsuarioPDO.html#method_validarUsuario"
         },                {
-            "fqsen": "\\UsuarioPDO\u003A\u003AactualizarUltimaConexion\u0028\u0029",
-            "name": "actualizarUltimaConexion",
-            "summary": "M\u00E9todo\u0020actualizarUltimaConexion\u0028\u0029",
-            "url": "classes/UsuarioPDO.html#method_actualizarUltimaConexion"
+            "fqsen": "\\UsuarioPDO\u003A\u003AobtenerUltimaConexion\u0028\u0029",
+            "name": "obtenerUltimaConexion",
+            "summary": "M\u00E9todo\u0020obtenerUltimaConexion\u0028\u0029",
+            "url": "classes/UsuarioPDO.html#method_obtenerUltimaConexion"
         },                {
             "fqsen": "\\UsuarioPDO\u003A\u003AborrarUsuario\u0028\u0029",
             "name": "borrarUsuario",
@@ -236,10 +246,45 @@ Search.appendIndex(
             "summary": "M\u00E9todo\u0020altaUsuario\u0028\u0029",
             "url": "classes/UsuarioPDO.html#method_altaUsuario"
         },                {
+            "fqsen": "\\UsuarioPDO\u003A\u003AcambiarPassword\u0028\u0029",
+            "name": "cambiarPassword",
+            "summary": "Metodo\u0020cambiarPassword\u0028\u0029",
+            "url": "classes/UsuarioPDO.html#method_cambiarPassword"
+        },                {
             "fqsen": "\\UsuarioPDO\u003A\u003AvalidarCodNoExiste\u0028\u0029",
             "name": "validarCodNoExiste",
             "summary": "M\u00E9todo\u0020validarCodNoExiste\u0028\u0029",
             "url": "classes/UsuarioPDO.html#method_validarCodNoExiste"
+        },                {
+            "fqsen": "\\REST",
+            "name": "REST",
+            "summary": "Class\u0020REST.php",
+            "url": "classes/REST.html"
+        },                {
+            "fqsen": "\\REST\u003A\u003AsevicioAPOD\u0028\u0029",
+            "name": "sevicioAPOD",
+            "summary": "Llama\u0020al\u0020servicio\u0020API\u0020REST\u0020APOD\u0028Astronomy\u0020Picture\u0020of\u0020the\u0020Day\u0029,\u0020que\u0020nos\u0020devuelve\u0020la\u0020imagen\u0020atron\u00F3mica\u0020del\nd\u00EDa\u0020e\u0020informaci\u00F3n\u0020relativa\u0020a\u0020esta.",
+            "url": "classes/REST.html#method_sevicioAPOD"
+        },                {
+            "fqsen": "\\REST\u003A\u003AactorBB\u0028\u0029",
+            "name": "actorBB",
+            "summary": "Llama\u0020al\u0020servicio\u0020API\u0020REST,\u0020que\u0020nos\u0020devuelve\u0020la\u0020informacion\u0020de\u0020un\u0020personaje\nde\u0020la\u0020serie\u0020Breaking\u0020Bad.",
+            "url": "classes/REST.html#method_actorBB"
+        },                {
+            "fqsen": "\\REST\u003A\u003Amayusculas\u0028\u0029",
+            "name": "mayusculas",
+            "summary": "Llama\u0020al\u0020servicio\u0020API\u0020REST,\u0020que\u0020nos\u0020realiza\u0020un\u0020cambio\u0020de\u0020min\u00FAsculas\u0020a\u0020MAY\u00DASCULAS",
+            "url": "classes/REST.html#method_mayusculas"
+        },                {
+            "fqsen": "\\RESTPropio",
+            "name": "RESTPropio",
+            "summary": "Class\u0020RESTPropio.php",
+            "url": "classes/RESTPropio.html"
+        },                {
+            "fqsen": "\\RESTPropio\u003A\u003AdecimalBinario\u0028\u0029",
+            "name": "decimalBinario",
+            "summary": "Llama\u0020al\u0020servicio\u0020API\u0020REST,\u0020que\u0020nos\u0020realiza\u0020un\u0020cambio\u0020de\u0020Decimal\u0020a\u0020Binario",
+            "url": "classes/RESTPropio.html#method_decimalBinario"
         },                {
             "fqsen": "\\",
             "name": "\\",

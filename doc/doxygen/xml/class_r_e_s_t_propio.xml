@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_r_e_s_t_propio" kind="class" language="PHP" prot="public">
+    <compoundname>RESTPropio</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_r_e_s_t_propio_1a8b22c30f1a9e1e8b9928c36fa057ccf1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static decimalBinario</definition>
+        <argsstring>($number)</argsstring>
+        <name>decimalBinario</name>
+        <param>
+          <declname>$number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Llama al servicio API <ref refid="class_r_e_s_t" kindref="compound">REST</ref>, que nos realiza un cambio de Decimal a Binario</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>int</parametertype>
+<parametername>$number</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nos devolvera la información del número. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int devuelve el cambio del número. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/PDWA2/proyectoDWES/proyectoTema6/App2021/model/RESTPropio.php" line="20" column="28" bodyfile="F:/PDWA2/proyectoDWES/proyectoTema6/App2021/model/RESTPropio.php" bodystart="20" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class <ref refid="_r_e_s_t_propio_8php" kindref="compound">RESTPropio.php</ref></para>
+<para>Clase que será utilizada para ofrecer servicios <ref refid="class_r_e_s_t" kindref="compound">REST</ref></para>
+<para><simplesect kind="author"><para>Nerea Álvarez Justel <ulink url="mailto:nerea.alvjus@educa.jcyl.es">nerea.alvjus@educa.jcyl.es</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>Version 1.0 </para>
+</simplesect>
+<simplesect kind="copyright"><para>Copyright (c) 2020 - 2021, Nerea Álvarez Justel </para>
+</simplesect>
+<simplesect kind="version"><para>1.4 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="F:/PDWA2/proyectoDWES/proyectoTema6/App2021/model/RESTPropio.php" line="12" column="1" bodyfile="F:/PDWA2/proyectoDWES/proyectoTema6/App2021/model/RESTPropio.php" bodystart="12" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_r_e_s_t_propio_1a8b22c30f1a9e1e8b9928c36fa057ccf1" prot="public" virt="non-virtual"><scope>RESTPropio</scope><name>decimalBinario</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

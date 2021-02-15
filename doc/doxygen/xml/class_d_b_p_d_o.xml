@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_d_b_p_d_o" kind="class" language="PHP" prot="public">
+    <compoundname>DBPDO</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_d_b_p_d_o_1a2abcf547df56694329fba928939a4259" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static ejecutaConsulta</definition>
+        <argsstring>($sentenciaSQL, $parametros)</argsstring>
+        <name>ejecutaConsulta</name>
+        <param>
+          <declname>$sentenciaSQL</declname>
+        </param>
+        <param>
+          <declname>$parametros</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Método <ref refid="class_d_b_p_d_o_1a2abcf547df56694329fba928939a4259" kindref="member">ejecutaConsulta()</ref></para>
+<para>Ejecuta una consulta a la base de datos indicada en configDB.</para>
+<para>@access public <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$sentenciaSQL</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Código SQL </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$parametros</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Datos necesarios para realizar la consulta e insertado en el código SQL. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>null|PDOStatement resultado que devolverá la consulta </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="F:/PDWA2/proyectoDWES/proyectoTema6/App2021/model/DBPDO.php" line="25" column="28" bodyfile="F:/PDWA2/proyectoDWES/proyectoTema6/App2021/model/DBPDO.php" bodystart="25" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class <ref refid="class_d_b_p_d_o" kindref="compound">DBPDO</ref></para>
+<para>Clase cuyo método permite establecer una conexión con la base de datos y realizarle consultas.</para>
+<para><simplesect kind="author"><para>Nerea Álvarez Justel <ulink url="mailto:nerea.alvjus@educa.jcyl.es">nerea.alvjus@educa.jcyl.es</ulink> </para>
+</simplesect>
+<simplesect kind="since"><para>Version 1.0 </para>
+</simplesect>
+<simplesect kind="copyright"><para>Copyright (c) 2020 - 2021, Nerea Álvarez Justel </para>
+</simplesect>
+<simplesect kind="version"><para>1.4 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="F:/PDWA2/proyectoDWES/proyectoTema6/App2021/model/DBPDO.php" line="13" column="1" bodyfile="F:/PDWA2/proyectoDWES/proyectoTema6/App2021/model/DBPDO.php" bodystart="13" bodyend="39"/>
+    <listofallmembers>
+      <member refid="class_d_b_p_d_o_1a2abcf547df56694329fba928939a4259" prot="public" virt="non-virtual"><scope>DBPDO</scope><name>ejecutaConsulta</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

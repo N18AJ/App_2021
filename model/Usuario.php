@@ -5,10 +5,10 @@
  *
  * Clase utilizada para instanciar objetos Usuario
  * 
- * @author Nerea Álvarez Justel
+ * @author Nerea Álvarez Justel <nerea.alvjus@educa.jcyl.es>
  * @since Version 1.0
- * @copyright 24-01-2021
- * @version 1.0
+ * @copyright Copyright (c) 2020 - 2021, Nerea Álvarez Justel
+ * @version 1.4
  */
 class Usuario {
 

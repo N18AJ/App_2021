@@ -29,8 +29,7 @@
         <img src="webroot/media/images/num1_4.jpg" style="display: none">
         <img src="webroot/media/images/num1_5.jpg" style="display: none">
         <img src="webroot/media/images/num2.jpg" style="display: none">
-        <img src="webroot/media/images/num3_1.jpg" style="display: none">
-        <img src="webroot/media/images/num3_2.jpg" style="display: none">
+        <img src="webroot/media/images/num3.jpg" style="display: none">
         <img src="webroot/media/images/num4.jpg" style="display: none">
         <img src="webroot/media/images/num5.jpg" style="display: none">
         <img src="webroot/media/images/num6.JPG" style="display: none">
