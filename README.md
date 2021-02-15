@@ -17,10 +17,11 @@ Base Multicapas
 **FRONT END**
 - HTML.
 - CSS.
+- JS.
 
 **BACK END**
-- PHP 7.4. (Modulos core, dom, ftp, json, msqli, PDO, Phar, session, sockets, xdebug, xml, zip)
-- MySQL
+- PHP 7.4. (Modulos core, dom, ftp, json, msqli, PDO, Phar, session, sockets, xdebug, xml, zip).
+- MySQL.
 
 **Desarrollo**
 - http://daw212.sauces.local/proyectoDWES/proyectoTema6/App2021/index.php
