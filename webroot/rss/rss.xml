@@ -1,53 +1,56 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
     <channel>
-        <title>NAJ</title>
-        <link>http://daw212.ieslossauces.es/</link>
-        <description>DAW2 20/21</description>
-        <category>Página Personal </category>
-        <language> es </language>
-        <copyright> &#169; </copyright>
-        <skipHours>
-                <hour> (0 and 23)</hour>
-        </skipHours>
-        <skipDays> 
-                <day>Sunday</day>
-        </skipDays>
+        
+        <title><![CDATA[ Nerea Álvarez Justel]]></title>
+        <copyright> 2020-2021. Nerea Álvarez Justel. Todos los Derechos Reservados.</copyright>
+        <link>https://daw212.ieslossauces.es/proyectoDWES/proyectoTema6/App2021/index.php</link>
+        <description>Aplicacion final del modulo DWES</description>
+        <language>es</language>
+        <lastBuildDate>Mon, 15 Feb 2021 11:30:00 GMT</lastBuildDate>
 
-
+        <image>
+            <url>https://daw212.ieslossauces.es/proyectoDWES/proyectoTema6/App2021/webroot/media/images/logo2.png</url>
+            <title>Nerea Álvarez Justel</title>
+            <link>https://daw212.ieslossauces.es/proyectoDWES/proyectoTema6/App2021/index.php</link>
+        </image>
+        
         <item>
             <title>App 20/21</title>
-            <link>http://daw212.ieslossauces.es/proyectoDWES/proyectoTema6/App2021/index.php</link>
-            <description>Subida de archivos REST y actualización de aspecto</description>
-            <pubDate>Fri, 28 Jan 2020 09:30:00 EST</pubDate>
-            <author>nerea.alvjus@educa.jcyl.es </author>
-            <guid> </guid>
+            <link> http://daw212.ieslossauces.es/proyectoDWES/proyectoTema6/App2021/index.php</link>
+            <description>Actualización de documentación mediante phpDocumentor y DoxyGen</description>
+            <pubDate>Mon, 15 Feb 2021 11:30:00 GMT</pubDate>
+            <author>nerea@example.com(Nerea)</author>
+            <guid>http://daw212.ieslossauces.es/proyectoDWES/proyectoTema6/App2021/DOC</guid>
+        </item>
+        
+        <item>
+            <title>App 20/21</title>
+            <link> http://daw212.ieslossauces.es/proyectoDWES/proyectoTema6/App2021/index.php</link>
+            <description>Realización del uso de JS y de REST propio y ajeno</description>
+            <pubDate>Fri, 12 Feb 2021 09:30:00 GMT</pubDate>
+            <author>nerea@example.com(Nerea)</author>
+            <guid>http://daw212.ieslossauces.es/proyectoDWES/proyectoTema6/App2021/JS</guid>
         </item>
 
-    </channel>
-    <channel>
-        <title>NAJ</title>
-        <link>http://daw212.ieslossauces.es/</link>
-        <description>DAW2 20/21</description>
-        <category>Página Personal </category>
-        <language> es </language>
-        <copyright> &#169; </copyright>
-        <skipHours>
-                <hour> (0 and 23)</hour>
-        </skipHours>
-        <skipDays> 
-                <day>Sunday</day>
-        </skipDays>
-
-
         <item>
             <title>App 20/21</title>
-            <link>http://daw212.ieslossauces.es/proyectoDWES/proyectoTema6/App2021/index.php</link>
+            <link> http://daw212.ieslossauces.es/proyectoDWES/proyectoTema6/App2021/index.php</link>
             <description>Funcionamiento estable del REST y cambio de contraseña</description>
-            <pubDate>Fri, 5 Jan 2021 09:30:00 EST</pubDate>
-            <author>nerea.alvjus@educa.jcyl.es </author>
-            <guid> </guid>
+            <pubDate>Fri, 5 Feb 2021 09:30:00 GMT</pubDate>
+            <author>nerea@example.com(Nerea)</author>
+            <guid>http://daw212.ieslossauces.es/proyectoDWES/proyectoTema6/App2021/REST</guid>
+        </item>
+
+        <item>
+            <title>App 20/21</title>
+            <link> http://daw212.ieslossauces.es/proyectoDWES/proyectoTema6/App2021/index.php</link>
+            <description>Subida de archivos REST y actualización de aspecto</description>
+            <pubDate>Fri, 29 Jan 2021 09:30:00 GMT</pubDate>
+            <author>nerea@example.com(Nerea)</author>
+            <guid>http://daw212.ieslossauces.es/proyectoDWES/proyectoTema6/App2021/CSS</guid>
         </item>
 
     </channel>
+
 </rss>

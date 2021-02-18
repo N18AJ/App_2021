@@ -6,7 +6,7 @@
  * Clase cuyos métodos se encargan de realizar consultas a la tabla T_01Usuario de la base de datos.
  * 
  * @author Nerea Álvarez Justel <nerea.alvjus@educa.jcyl.es>
- * @since Version 1.0
+ * @since 1.0 Version 
  * @copyright Copyright (c) 2020 - 2021, Nerea Álvarez Justel
  * @version 1.4
  */
