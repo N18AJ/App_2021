@@ -4,8 +4,8 @@
  *
  * Clase cuyos métodos se encargan de realizar a apis ajenas
  * 
-* @author Nerea Álvarez Justel <nerea.alvjus@educa.jcyl.es>
- * @since Version 1.0
+ * @author Nerea Álvarez Justel <nerea.alvjus@educa.jcyl.es>
+ * @since 1.0 Version 
  * @copyright Copyright (c) 2020 - 2021, Nerea Álvarez Justel
  * @version 1.4
  */
