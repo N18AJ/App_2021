@@ -1,19 +1,5 @@
 <?php
 
-/**
- * @author: Nerea Álvarez Justel
- * @since: 24/01/2020
- * 
- * cRegistro
- * 
- * Llegaremos desde cLogin
- * 
- * Registrarse nos lleva a cInicio
- * 
- * Cancelar nos lleva a cLogin
- * 
- */
-
 if (isset($_REQUEST['Cancelar'])) {
 
     $_SESSION['paginaEnCurso'] = $controladores['login']; // guardamos en la variable de sesion 'pagina' la ruta del controlador del login

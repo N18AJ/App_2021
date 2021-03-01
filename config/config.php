@@ -3,6 +3,8 @@ require_once "core/libreriaValidacion.php";
 
 require_once "model/Usuario.php";
 require_once "model/UsuarioPDO.php";
+require_once "model/Departamento.php";
+require_once "model/DepartamentoPDO.php";
 require_once "model/DBPDO.php";
 require_once "model/REST.php";
 require_once "model/RESTPropio.php";
@@ -16,7 +18,11 @@ $controladores = [
     "editProfile" => "controller/cMiCuenta.php",
     "deleteAccount" => "controller/cBorrarCuenta.php",
     "restPag" => "controller/cREST.php",
-    "changePassw" => "controller/cPassword.php"
+    "changePassw" => "controller/cPassword.php",
+    "mtoDepartamentos" => "controller/cMtoDepartamentos.php",
+    "altaDepartamento" => "controller/cAltaDepartamento.php",
+    "modificarDepartamento" => "controller/cConsultarModificarDepartamento.php",
+    "eliminarDepartamento" => "controller/cEliminarDepartamento.php"
     
 ];
 
@@ -29,7 +35,11 @@ $vistas = [
     "editProfile" => "view/vMiCuenta.php",
     "deleteAccount" => "view/vBorrarCuenta.php",
     "restPag" => "view/vREST.php",
-    "changePassw" => "view/vPassword.php"
+    "changePassw" => "view/vPassword.php",
+    "mtoDepartamentos" => "view/vMtoDepartamentos.php",
+    "altaDepartamento" => "view/vAltaDepartamento.php",
+    "modificarDepartamento" => "view/vConsultaModificarDepartamento.php",
+    "eliminarDepartamento" => "view/vEliminarDepartamento.php"
 ];
 
 ?>

@@ -1,18 +1,5 @@
 <?php
 
-/**
- * @author: Nerea Álvarez Justel
- * @since: 24/01/2020
- * 
- * cLogin
- * 
- * inicioSesion nos lleva a cInicio
- * 
- * registrarse nos lleva a cRegistro
- * 
- */
-
-
 if (isset($_REQUEST['idiomaElegido'])) { // si se ha pulsado el botton de idiomaElegido
     setcookie('idioma', $_REQUEST['idiomaElegido'], time() + 2592000); // modifica la cookie 'idioma' con el valor recibido del formulario para 30 dias
     header('Location: index.php');

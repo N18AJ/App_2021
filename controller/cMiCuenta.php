@@ -1,20 +1,5 @@
 <?php
 
-/**
- * @author: Nerea Álvarez Justel
- * @since: 24/01/2020
- * 
- * cMiCuenta
- * 
- * Llegaremos desde cInicio
- * 
- * Aceptar nos lleva a cInicio
- * 
- * cancelar nos lleva a cInicio
- * 
- * editarContraseña
- * 
- */
 if (isset($_REQUEST['inicio'])) {
     $_SESSION['paginaEnCurso'] = $controladores['inicio']; // guardamos en la variable de sesion 'pagina' la ruta del controlador del login
     header('Location: index.php');
@@ -36,6 +21,11 @@ if (isset($_REQUEST['changePassw'])) { // si se ha pulsado el boton de REST
     exit;
 }
 
+if (isset($_REQUEST['mtoDepartamentos'])) { // si se ha pulsado el boton de DEPARTAMENTOS
+    $_SESSION['paginaEnCurso'] = $controladores['mtoDepartamentos'];
+    header("Location: index.php"); // redirige al login
+    exit;
+}
 
 if (isset($_REQUEST['cerrarSesion'])) { // si se ha pulsado el boton de Cerrar Sesion
     session_destroy(); // destruye todos los datos asociados a la sesion

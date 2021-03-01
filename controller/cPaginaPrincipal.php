@@ -1,16 +1,5 @@
 <?php
 
-/**
- * @author: Nerea Álvarez Justel
- * @since: 27/01/2020
- * 
- * cPaginsPrincipal
- * 
- * Llegaremos iniciando
- * 
- * login nos lleva a cLogin
- * 
- */
 if (!isset($_COOKIE['idioma'])) {
     setcookie('idioma', 'es', time() + 2592000); // crea la cookie 'idioma' con el valor 'es' para 30 dias
     header('Location: index.php');

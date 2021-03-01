@@ -5,6 +5,7 @@
         <form name="logout"  action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
             
             <button class="botonI" type="submit" name="inicio"><?php echo $aLang[$_COOKIE['idioma']]['start']; ?></button>
+            <button class="botonI" type="submit" name='mtoDepartamentos'><?php echo $aLang[$_COOKIE['idioma']]['departamentos']; ?></button>
             <button class="botonS" type="submit" name='editProfile'><?php echo $aLang[$_COOKIE['idioma']]['edit']; ?></button>
             <button class="botonI" type="submit" name='deleteAccount'><?php echo $aLang[$_COOKIE['idioma']]['delete']; ?></button>
             <button class="botonI" type="submit" name='restPag'><?php echo $aLang[$_COOKIE['idioma']]['restNom']; ?></button>

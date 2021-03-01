@@ -1,21 +1,5 @@
 <?php
 
-/**
- * @author: Nerea Álvarez Justel
- * @since: 24/01/2020
- * 
- * cInicio
- * 
- * Llegaremos desde cLogin
- * 
- * cerrarSesion nos lleva a cLogin
- * 
- * editProfile nos lleva a cMiCuenta
- * 
- * deleteAccount nos lleva a CBorrarCuenta
- * 
- */
-
 if (!isset($_SESSION['usuarioDAW212LoginLogoffMulticapaPOO'])) { // si no se ha logueado le usuario
     header('Location: index.php'); // redirige al login
     exit;
@@ -40,6 +24,12 @@ if (isset($_REQUEST['deleteAccount'])) { // si se ha pulsado el boton de Borrar 
 
 if (isset($_REQUEST['restPag'])) { // si se ha pulsado el boton de REST
     $_SESSION['paginaEnCurso'] = $controladores['restPag'];
+    header("Location: index.php"); // redirige al login
+    exit;
+}
+
+if (isset($_REQUEST['mtoDepartamentos'])) { // si se ha pulsado el boton de DEPARTAMENTOS
+    $_SESSION['paginaEnCurso'] = $controladores['mtoDepartamentos'];
     header("Location: index.php"); // redirige al login
     exit;
 }

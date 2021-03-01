@@ -1,17 +1,5 @@
 <?php
 
-/**
- * @author: Nerea Álvarez Justel
- * @since: 24/01/2020
- * 
- * cMiCuenta
- * 
- * Llegaremos desde cMiCuenta
- * 
- * editarContraseña
- * 
- */
-
 if (isset($_REQUEST['Cancelar'])) { // si se ha pulsado el boton de canelar
     $_SESSION['paginaEnCurso'] = $controladores['editProfile']; // guardamos en la variable de sesion 'pagina' la ruta del controlador del inicio
     

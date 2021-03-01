@@ -1,9 +1,4 @@
 <?php
-/**
- * @author Nerea Álvarez Justel
- * @since 26/01/2021
- * @version 26/01/2021
- */
 
 if (isset($_REQUEST['inicio'])) {
     $_SESSION['paginaEnCurso'] = $controladores['inicio']; // guardamos en la variable de sesion 'pagina' la ruta del controlador del login
@@ -26,6 +21,11 @@ if (isset($_REQUEST['cerrarSesion'])) { // si se ha pulsado el boton de Cerrar S
     exit;
 }
 
+if (isset($_REQUEST['mtoDepartamentos'])) { // si se ha pulsado el boton de DEPARTAMENTOS
+    $_SESSION['paginaEnCurso'] = $controladores['mtoDepartamentos'];
+    header("Location: index.php"); // redirige al login
+    exit;
+}
 
 $apodSelected = "selected"; //marcamos como seleccionado el servicio por defecto (apod)
 $apodDisplay = "block"; //mostramos el servicio por defecto (apod)

@@ -20,6 +20,11 @@ $aLang = [
         'passw3' => 'REPETIR CONTRASEÑA',
         'priv1' => 'He podido leer y entiendo la información sobre el uso de mis',
         'priv2' => 'datos personales explicada en la ',
+        'code' => 'CÓDIGO',
+        'volume' => 'VOLUMEN',
+        'creation' => 'FECHA CREACIÓN',
+        'leavingdate' => 'FECHA BAJA',
+        
         
         //Botones ENTRADA
         'start' => 'INICIO',
@@ -28,6 +33,7 @@ $aLang = [
         'edit' => 'EDITAR PERFIL',
         'logoff' => 'CERRAR SESIÓN',
         'delete'=> 'BORRAR CUENTA',
+        'departamentos'=> 'DEPARTAMENTOS',
         'restNom'=> 'REST',
         'homeB'=> 'HOME',
         'priv' => 'Política de Privacidad',
@@ -42,7 +48,7 @@ $aLang = [
         'homeT'=> 'PÁGINA INICIO',
         'imagenT'=> 'IMAGENES',
         'docT'=> 'ENLACES A DOC',
-        
+      
         //Muestra INICIO
         'welcome' => 'Bienvenid@ ' . (isset($usuarioActual) ? $usuarioActual->getDescUsuario() : null),
         //'welcome' => 'Bienvenid@ ',
@@ -59,6 +65,7 @@ $aLang = [
         'returnB'=>'VOLVER',
         'changePasswB'=>'CAMBIAR CONTRASEÑA',
         'searchB'=>'BUSCAR',
+        'addB'=>'AÑADIR',
         'mayB'=>'MAYÚSCULAS',
         'binB'=>'BINARIO'
         
@@ -79,6 +86,10 @@ $aLang = [
         'passw3' => 'REPET PASSWORD',
         'priv1' => 'I have been able to read and understand the information about the use of my',
         'priv2' => 'personal data explained in the ',
+        'code' => 'CODE',
+        'volume' => 'VOLUME',
+        'creation' => 'CREATION DATE',
+        'leavingdate' => 'LEAVING DATE',
         
         //Botones ENTRADA
         'start' => 'START',
@@ -96,6 +107,7 @@ $aLang = [
         'signupT'=> 'REGISTRATION',
         'editProfileT' => 'EDIT PROFILE',
         'deleteT'=> 'DELETE ACCOUNT',
+        'departamentos'=> 'SHOP',
         'restT'=> 'REST',
         'homeT'=> 'HOMEPAGE',
         'imagenT'=> 'IMAGENES',
@@ -118,6 +130,7 @@ $aLang = [
         'changeB'=>'CHANGE',
         'changePassw'=>'CHANGE PASSWORD',
         'searchB'=>'SEARCH',
+        'addB'=>'ADD',
         'mayB'=>'CAPITAL',
         'binB'=>'BINARY'
     ]
